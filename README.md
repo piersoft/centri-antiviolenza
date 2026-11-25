@@ -7,6 +7,8 @@ dall'**elenco ufficiale** pubblicato dal 1522 (Dipartimento per le Pari Opportun
 > **In caso di pericolo immediato chiama il 112.**
 > Il **1522** è il numero gratuito antiviolenza e stalking, attivo 24 ore su 24, anche via chat su [1522.eu](https://www.1522.eu/).
 
+**🗺️ Mappa online: <https://piersoft.github.io/centri-antiviolenza/>**
+
 ## Come funziona
 
 - `scripts/aggiorna.py` legge la pagina ufficiale e controlla la data **«Aggiornamento della Mappatura»**: se non è cambiata rispetto all'ultima esecuzione si ferma subito (con `--forza` rielabora comunque).
@@ -33,7 +35,7 @@ dall'**elenco ufficiale** pubblicato dal 1522 (Dipartimento per le Pari Opportun
 - clic su un centro: popup + barra laterale con tutte le informazioni (telefoni cliccabili, orari con evidenza del giorno corrente, sportelli, note, indicazioni stradali);
 - ricerca per comune/provincia/nome, filtro per regione e per contatto h24, "vicino a me";
 - link diretto a ogni centro (`…/#<id>`);
-- pulsante **Esci subito** (anche tasto `Esc`) che abbandona la pagina sostituendo la cronologia.
+- pulsante **Esci subito** (anche tasto `Esc`): misura di sicurezza comune nei siti antiviolenza. Se qualcuno si avvicina, chi sta consultando la mappa può lasciare la pagina in un attimo: si apre una pagina neutra (le previsioni meteo su Google) e la mappa viene sostituita nella cronologia, così il tasto «Indietro» non la riporta.
 
 ## Esecuzione locale
 
@@ -49,3 +51,9 @@ python -m http.server 8000   # poi apri http://localhost:8000
 - Il logo 1522 in `assets/` è quello messo a disposizione dal portale nella pagina [Download](https://www.1522.eu/i-media/download.html), utilizzato secondo le relative [linee guida](https://www.1522.eu/images/download/1522_manuale_logo_linee_guida.pdf).
 - Civici: ANNCSU (Agenzia delle Entrate – ISTAT) tramite Cruscotto Italia (AgID), licenza CC BY 4.0.
 - Mappe e geocodifica di ripiego © contributori [OpenStreetMap](https://www.openstreetmap.org/copyright) (ODbL).
+
+## Crediti
+
+Ideazione e realizzazione: **Francesco Piero Paolicelli** ([@piersoft](https://github.com/piersoft)) – <https://www.piersoft.it>
+
+Dati: elenco dei Centri Antiviolenza del [1522](https://www.1522.eu/) (Dipartimento per le Pari Opportunità); civici ANNCSU (Agenzia delle Entrate – ISTAT) tramite [Cruscotto Italia](https://cruscotto-italia.dati.gov.it/) (AgID); cartografia © [OpenStreetMap](https://www.openstreetmap.org/copyright).

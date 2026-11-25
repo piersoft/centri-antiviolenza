@@ -60,6 +60,8 @@
   /* banner emergenza */
   #emergenza{position:absolute;left:10px;bottom:28px;z-index:1000;background:#fff;border-left:5px solid var(--rosso);padding:10px 14px;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.18);font-size:.88rem;max-width:330px}
   #emergenza b{color:var(--rosso)}
+  #emergenza .nota-esci{margin-top:6px;padding-top:6px;border-top:1px solid var(--linea);font-size:.8rem;color:var(--grigio)}
+  #emergenza .nota-esci b{color:#222}
   #emergenza .x{float:right;border:0;background:none;cursor:pointer;font-size:1.1rem;color:var(--grigio)}
   .leaflet-popup-content{font-size:.9rem;margin:10px 14px}
   .leaflet-popup-content b{display:block;margin-bottom:2px}
@@ -95,7 +97,7 @@
   <h1>Mappa dei Centri Antiviolenza<small id="agg">Caricamento dati…</small></h1>
   <div class="spacer"></div>
   <a class="btn btn-call" href="tel:1522" title="Chiama il 1522: gratuito, attivo 24 ore su 24">📞 <span>1522</span><span class="lungo">&nbsp;gratuito h24</span></a>
-  <button class="btn btn-exit" id="esci" title="Esci subito dal sito (tasto Esc)">✕ <span class="lungo">Esci subito</span><span class="corto"></span></button>
+  <button class="btn btn-exit" id="esci" title="Uscita rapida: apre una pagina neutra e toglie la mappa dalla cronologia (tasto Esc)" aria-label="Esci subito: uscita rapida e sicura dalla pagina">✕ <span class="lungo">Esci subito</span><span class="corto"></span></button>
 </header>
 
 <div id="toolbar" role="search">
@@ -120,6 +122,7 @@
   <button class="x" aria-label="Chiudi avviso" onclick="this.parentNode.remove()">×</button>
   In caso di pericolo immediato chiama il <b>112</b>.<br>
   Per aiuto e informazioni chiama il <b>1522</b>: gratuito, anonimo, attivo <b>24 ore su 24</b>, anche via <a href="https://www.1522.eu/" target="_blank" rel="noopener">chat</a>.
+  <div class="nota-esci">Se qualcuno si avvicina, premi <b>Esci subito</b> (o il tasto <b>Esc</b>): la mappa si chiude e al suo posto compare una pagina neutra, senza lasciarla nella cronologia del tasto «Indietro».</div>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
