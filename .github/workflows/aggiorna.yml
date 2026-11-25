@@ -1,0 +1,46 @@
+name: Aggiorna dati dal 1522
+
+on:
+  schedule:
+    - cron: "17 4 * * *"   # ogni giorno alle 04:17 UTC
+  workflow_dispatch:        # avvio manuale dalla tab Actions
+  push:
+    paths:
+      - "scripts/**"
+      - ".github/workflows/aggiorna.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aggiorna-dati
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Scarica elenco e geocodifica
+        run: python scripts/aggiorna.py
+
+      - name: Commit se i dati sono cambiati
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Nessuna variazione nei dati sorgente."
+          else
+            git commit -m "Aggiornamento automatico dati 1522 ($(date -u +%Y-%m-%d))"
+            git push
+          fi

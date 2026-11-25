@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mappa dei Centri Antiviolenza – 1522</title>
+<meta name="description" content="Mappa georiferita dei Centri Antiviolenza e degli sportelli in Italia, aggiornata automaticamente dall'elenco ufficiale del 1522.">
+<meta property="og:title" content="Mappa dei Centri Antiviolenza – 1522">
+<meta property="og:description" content="Trova il Centro Antiviolenza più vicino. In caso di emergenza chiama il 1522, gratuito e attivo 24 ore su 24.">
+<meta property="og:image" content="assets/1522_logo_esteso.svg">
+<link rel="icon" href="assets/logo_1522_header.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<style>
+  :root{--rosso:#d5183e;--rosso-scuro:#a8102f;--testo:#1f1f24;--grigio:#6b6b76;--linea:#e6e3e8;--sfondo:#fff5f7;--rosa:#ffe8ed;--malva:#a65168;--viola:#7b1967;--hdr:64px}
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;font-family:"Titillium Web",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--testo)}
+  a{color:var(--rosso-scuro)}
+  header{height:var(--hdr);display:flex;align-items:center;gap:14px;padding:0 14px;background:#fff;border-bottom:3px solid var(--rosso);position:relative;z-index:1001}
+  header .logo{height:46px;display:block}
+  header h1{font-size:1.05rem;margin:0;line-height:1.2;font-weight:600}
+  header h1 small{display:block;font-weight:400;color:var(--grigio);font-size:.78rem}
+  .spacer{flex:1}
+  .btn{display:inline-flex;align-items:center;gap:6px;border:0;border-radius:999px;padding:9px 16px;font:inherit;font-weight:700;cursor:pointer;text-decoration:none;white-space:nowrap}
+  .btn-call{background:var(--rosso);color:#fff}
+  .btn-call:hover{background:var(--rosso-scuro)}
+  .btn-exit{background:#222;color:#fff}
+  .btn-exit:hover{background:#000}
+  #toolbar{position:absolute;top:calc(var(--hdr) + 10px);left:54px;z-index:1000;display:flex;flex-wrap:wrap;gap:8px;max-width:calc(100% - 70px)}
+  #toolbar input,#toolbar select,#toolbar button,#toolbar label{font:inherit;font-size:.9rem;border:1px solid var(--linea);background:#fff;border-radius:8px;padding:7px 10px;box-shadow:0 1px 4px rgba(0,0,0,.12)}
+  #toolbar input[type=search]{width:240px}
+  #toolbar label{display:flex;align-items:center;gap:6px;cursor:pointer}
+  #toolbar button{cursor:pointer}
+  #conteggio{font-size:.85rem;background:rgba(255,255,255,.92);padding:7px 10px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.12)}
+  #map{position:absolute;top:var(--hdr);bottom:0;left:0;right:0}
+  /* barra laterale */
+  #sidebar{position:absolute;top:var(--hdr);right:0;bottom:0;width:400px;max-width:100%;background:#fff;z-index:1002;box-shadow:-4px 0 18px rgba(0,0,0,.18);transform:translateX(105%);transition:transform .25s ease;display:flex;flex-direction:column}
+  #sidebar.aperta{transform:none}
+  #sidebar .top{display:flex;align-items:flex-start;gap:10px;padding:16px 16px 12px;border-bottom:1px solid var(--linea);background:var(--sfondo)}
+  #sidebar .top h2{margin:0;font-size:1.15rem;line-height:1.3;flex:1}
+  #sidebar .top .luogo{color:var(--grigio);font-size:.88rem;margin-top:4px}
+  #chiudi{border:0;background:none;font-size:1.6rem;line-height:1;cursor:pointer;color:var(--grigio);padding:0 4px}
+  #sidebar .corpo{overflow:auto;padding:14px 16px 24px;flex:1}
+  .badge{display:inline-block;font-size:.72rem;font-weight:700;padding:2px 8px;border-radius:999px;margin:6px 6px 0 0;background:var(--rosa);color:var(--viola)}
+  .badge.grigio{background:#eee;color:#555}
+  .sez{margin:14px 0 0}
+  .sez h3{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--grigio);margin:0 0 6px}
+  .tel{display:flex;flex-wrap:wrap;gap:8px}
+  .tel a{display:inline-flex;align-items:center;gap:6px;background:var(--rosso);color:#fff;text-decoration:none;font-weight:700;padding:8px 12px;border-radius:8px}
+  .tel a:hover{background:var(--rosso-scuro)}
+  .orari{list-style:none;margin:0;padding:0;font-size:.92rem}
+  .orari li{display:flex;justify-content:space-between;gap:10px;padding:4px 0;border-bottom:1px dashed var(--linea)}
+  .orari li span:first-child{font-weight:600}
+  .orari li.oggi{background:var(--rosa)}
+  .avviso{font-size:.82rem;background:#fff8e1;border-left:3px solid #f0b400;padding:8px 10px;margin-top:12px}
+  .azioni{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+  .azioni a{font-size:.88rem;border:1px solid var(--linea);padding:6px 10px;border-radius:8px;text-decoration:none}
+  .fonte{font-size:.78rem;color:var(--grigio);margin-top:20px}
+  /* banner emergenza */
+  #emergenza{position:absolute;left:10px;bottom:28px;z-index:1000;background:#fff;border-left:5px solid var(--rosso);padding:10px 14px;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.18);font-size:.88rem;max-width:330px}
+  #emergenza b{color:var(--rosso)}
+  #emergenza .x{float:right;border:0;background:none;cursor:pointer;font-size:1.1rem;color:var(--grigio)}
+  .leaflet-popup-content{font-size:.9rem;margin:10px 14px}
+  .leaflet-popup-content b{display:block;margin-bottom:2px}
+  .marker-cav{width:26px;height:26px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:var(--rosso);border:2px solid #fff;box-shadow:0 1px 5px rgba(0,0,0,.4)}
+  .marker-cav.approx{background:var(--malva)}
+  .marker-cav.osm{background:#e0607a}
+  .marker-cav.attivo{background:var(--viola);transform:rotate(-45deg) scale(1.25)}
+  .marker-cluster-small,.marker-cluster-medium,.marker-cluster-large{background:rgba(213,24,62,.25)}
+  .marker-cluster-small div,.marker-cluster-medium div,.marker-cluster-large div{background:rgba(213,24,62,.85);color:#fff;font-weight:700}
+  .legenda{background:#fff;padding:8px 10px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.2);font-size:.8rem;line-height:1.6}
+  .legenda i{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+  @media (max-width:760px){
+    :root{--hdr:58px}
+    header h1{display:none}
+    header .logo{height:32px}
+    .btn{padding:8px 12px;font-size:.85rem}
+    .btn .lungo{display:none}
+    #toolbar{left:10px;right:10px;max-width:none;top:calc(var(--hdr) + 8px)}
+    #toolbar input[type=search]{flex:1 1 100%;width:100%;min-width:0}
+    #toolbar select{flex:1;min-width:0}
+    .leaflet-top.leaflet-left{top:150px}
+    #sidebar{top:auto;height:72%;width:100%;border-radius:16px 16px 0 0;transform:translateY(105%)}
+    #sidebar.aperta{transform:none}
+    #emergenza{right:10px;max-width:none;bottom:22px}
+  }
+</style>
+</head>
+<body>
+<header>
+  <a href="https://www.1522.eu/" target="_blank" rel="noopener" title="1522 – Numero antiviolenza e stalking">
+    <img class="logo" src="assets/logo_1522_header.svg" alt="1522 Numero antiviolenza e stalking">
+  </a>
+  <h1>Mappa dei Centri Antiviolenza<small id="agg">Caricamento dati…</small></h1>
+  <div class="spacer"></div>
+  <a class="btn btn-call" href="tel:1522" title="Chiama il 1522: gratuito, attivo 24 ore su 24">📞 <span>1522</span><span class="lungo">&nbsp;gratuito h24</span></a>
+  <button class="btn btn-exit" id="esci" title="Esci subito dal sito (tasto Esc)">✕ <span class="lungo">Esci subito</span><span class="corto"></span></button>
+</header>
+
+<div id="toolbar" role="search">
+  <input type="search" id="cerca" placeholder="Cerca comune, provincia o centro…" aria-label="Cerca">
+  <select id="regione" aria-label="Filtra per regione"><option value="">Tutte le regioni</option></select>
+  <label title="Mostra solo i centri con un numero attivo 24 ore su 24"><input type="checkbox" id="h24"> h24</label>
+  <button id="vicino" title="Trova i centri vicino a me">📍 Vicino a me</button>
+  <span id="conteggio"></span>
+</div>
+
+<div id="map" aria-label="Mappa dei centri antiviolenza"></div>
+
+<aside id="sidebar" aria-live="polite" aria-hidden="true">
+  <div class="top">
+    <div style="flex:1"><h2 id="sb-titolo"></h2><div class="luogo" id="sb-luogo"></div><div id="sb-badge"></div></div>
+    <button id="chiudi" aria-label="Chiudi">×</button>
+  </div>
+  <div class="corpo" id="sb-corpo"></div>
+</aside>
+
+<div id="emergenza">
+  <button class="x" aria-label="Chiudi avviso" onclick="this.parentNode.remove()">×</button>
+  In caso di pericolo immediato chiama il <b>112</b>.<br>
+  Per aiuto e informazioni chiama il <b>1522</b>: gratuito, anonimo, attivo <b>24 ore su 24</b>, anche via <a href="https://www.1522.eu/" target="_blank" rel="noopener">chat</a>.
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script>
+(() => {
+  // ---------- uscita rapida (pulsante o tasto Esc) ----------
+  const esci = () => { try { document.body.innerHTML = ''; } catch(e){}; window.location.replace('https://www.google.it/search?q=meteo'); };
+  document.getElementById('esci').onclick = esci;
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') { if (sbAperta()) chiudiSidebar(); else esci(); } });
+
+  const FONTE = 'https://www.1522.eu/centri-antiviolenza/mappa.html';
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const norm = s => String(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
+
+  const map = L.map('map', { zoomControl: true }).setView([42.0, 12.6], 6);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | Centri: <a href="'+FONTE+'" target="_blank" rel="noopener">1522 – Dip. Pari Opportunità</a> | Civici: ANNCSU via <a href="https://cruscotto-italia.dati.gov.it/" target="_blank" rel="noopener">Cruscotto Italia (AgID)</a>'
+  }).addTo(map);
+
+  const legenda = L.control({ position: 'bottomright' });
+  legenda.onAdd = () => { const d = L.DomUtil.create('div','legenda');
+    d.innerHTML = '<i style="background:#d5183e"></i>Civico / via (ANNCSU)<br><i style="background:#e0607a"></i>Indirizzo (OpenStreetMap)<br><i style="background:#a65168"></i>Approssimata (comune)'; return d; };
+  legenda.addTo(map);
+
+  const CLS = { civico:'', via:'', indirizzo_osm:' osm', comune:' approx', provincia:' approx' };
+  const icona = (prec, attivo) => L.divIcon({ className: '', html: '<div class="marker-cav'+(CLS[prec]??' approx')+(attivo?' attivo':'')+'"></div>', iconSize:[26,26], iconAnchor:[13,26], popupAnchor:[0,-24] });
+  const cluster = L.markerClusterGroup({ showCoverageOnHover:false, maxClusterRadius:45, spiderfyOnMaxZoom:true });
+  map.addLayer(cluster);
+
+  let tutti = [], markerAttivo = null;
+  const sb = document.getElementById('sidebar');
+  const sbAperta = () => sb.classList.contains('aperta');
+
+  // ---------- orari ----------
+  const APPROX = new Set(['comune','provincia','non_trovato']);
+  const GIORNI = ['Domenica','Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato'];
+  function renderOrari(testo) {
+    const parti = testo.split(';').map(s => s.trim()).filter(Boolean);
+    const strutturati = parti.filter(p => /^(luned|marted|mercoled|gioved|venerd|sabato|domenica)[^:]*:/i.test(p));
+    if (strutturati.length < 3) return '<div>'+esc(testo)+'</div>';
+    const oggi = norm(GIORNI[new Date().getDay()]);
+    const visti = new Set();
+    return '<ul class="orari">' + parti.map(p => {
+      const i = p.indexOf(':'); if (i < 0) return '<li><span></span><span>'+esc(p)+'</span></li>';
+      const g = p.slice(0,i).trim(), v = p.slice(i+1).trim();
+      if (visti.has(g+v)) return ''; visti.add(g+v);
+      return '<li'+(norm(g).startsWith(oggi)?' class="oggi" title="Oggi"':'')+'><span>'+esc(g)+'</span><span>'+esc(v)+'</span></li>';
+    }).join('') + '</ul>';
+  }
+  const linkTel = n => '<a href="tel:'+esc(n)+'">📞 '+esc(n.replace(/^(\d{3})(\d{3,4})(\d+)$/,'$1 $2 $3'))+'</a>';
+
+  // ---------- barra laterale ----------
+  function apriSidebar(p, latlng) {
+    document.getElementById('sb-titolo').textContent = p.centro || 'Centro antiviolenza';
+    document.getElementById('sb-luogo').textContent = [p.comune, p.provincia && p.provincia !== p.comune ? '('+p.provincia+')' : '', '–', p.regione].filter(Boolean).join(' ');
+    document.getElementById('sb-badge').innerHTML =
+      (p.h24 ? '<span class="badge">Contatto h24</span>' : '') +
+      (APPROX.has(p.precisione) ? '<span class="badge grigio">Posizione approssimata</span>' : '');
+
+    let h = '';
+    if (p.telefoni && p.telefoni.length) h += '<div class="sez"><h3>Telefoni</h3><div class="tel">'+p.telefoni.map(linkTel).join('')+'</div></div>';
+    if (p.email && p.email.length) h += '<div class="sez"><h3>Email</h3>'+p.email.map(m=>'<div><a href="mailto:'+esc(m)+'">'+esc(m)+'</a></div>').join('')+'</div>';
+    if (p.link && p.link.length) h += '<div class="sez"><h3>Sito</h3>'+p.link.map(u=>'<div><a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(u)+'</a></div>').join('')+'</div>';
+    // tutti i campi della fonte, nell'ordine originale
+    for (const c of p.campi) {
+      const et = c.etichetta;
+      if (/^(provincia|comune|centro)$/i.test(et)) continue;
+      const corpo = /^orar/i.test(et) ? renderOrari(c.valore) : '<div>'+esc(c.valore)+'</div>';
+      h += '<div class="sez"><h3>'+esc(et)+'</h3>'+corpo+'</div>';
+    }
+    if (p.note && p.note.length) h += '<div class="sez"><h3>Note</h3>'+p.note.map(n=>'<div>'+esc(n)+'</div>').join('')+'</div>';
+    if (APPROX.has(p.precisione)) h += '<div class="avviso">L\'indirizzo non è stato localizzato con precisione: il punto sulla mappa indica il '+(p.precisione==='provincia'?'capoluogo di provincia':'comune')+'. Fai riferimento all\'indirizzo indicato sopra.</div>';
+    const PREC = { civico:'numero civico ANNCSU', via:'via ANNCSU', indirizzo_osm:'indirizzo su OpenStreetMap', comune:'comune', provincia:'capoluogo di provincia' };
+
+    const dest = encodeURIComponent([p.indirizzo, p.comune, p.provincia, 'Italia'].filter(Boolean).join(', '));
+    h += '<div class="azioni">'+
+         '<a href="https://www.google.com/maps/dir/?api=1&destination='+dest+'" target="_blank" rel="noopener">🧭 Indicazioni</a>'+
+         '<a href="https://www.openstreetmap.org/search?query='+dest+'" target="_blank" rel="noopener">🗺️ OpenStreetMap</a>'+
+         '<a href="#" id="condividi">🔗 Copia link</a></div>';
+    h += '<div class="fonte">Fonte: <a href="'+FONTE+'" target="_blank" rel="noopener">elenco ufficiale 1522.eu</a>. Verifica sempre orari e contatti chiamando il centro o il 1522.<br>Posizione: '+esc(PREC[p.precisione]||p.precisione)+(p.riscontro_anncsu?' — '+esc(p.riscontro_anncsu):'')+'.</div>';
+    document.getElementById('sb-corpo').innerHTML = h;
+    document.getElementById('sb-corpo').scrollTop = 0;
+    document.getElementById('condividi').onclick = e => { e.preventDefault();
+      navigator.clipboard?.writeText(location.href).then(() => { e.target.textContent = '✔ Link copiato'; }); };
+    sb.classList.add('aperta'); sb.setAttribute('aria-hidden','false');
+    history.replaceState(null, '', '#'+p.id);
+  }
+  function chiudiSidebar() {
+    sb.classList.remove('aperta'); sb.setAttribute('aria-hidden','true');
+    if (markerAttivo) { markerAttivo.setIcon(icona(markerAttivo.feature.properties.precisione, false)); markerAttivo = null; }
+    history.replaceState(null, '', location.pathname + location.search);
+  }
+  document.getElementById('chiudi').onclick = chiudiSidebar;
+
+  function seleziona(m, zoom) {
+    if (markerAttivo && markerAttivo !== m) markerAttivo.setIcon(icona(markerAttivo.feature.properties.precisione, false));
+    markerAttivo = m;
+    m.setIcon(icona(m.feature.properties.precisione, true));
+    const go = () => { m.openPopup(); apriSidebar(m.feature.properties, m.getLatLng()); };
+    if (zoom) cluster.zoomToShowLayer(m, go); else go();
+  }
+
+  // ---------- filtri ----------
+  const elCerca = document.getElementById('cerca'), elReg = document.getElementById('regione'), elH24 = document.getElementById('h24');
+  function applicaFiltri(adatta) {
+    const q = norm(elCerca.value.trim()), r = elReg.value, solo24 = elH24.checked;
+    const vis = tutti.filter(m => { const p = m.feature.properties;
+      if (r && p.regione !== r) return false;
+      if (solo24 && !p.h24) return false;
+      if (q && !norm([p.centro,p.comune,p.provincia,p.indirizzo,p.regione].join(' ')).includes(q)) return false;
+      return true; });
+    cluster.clearLayers(); cluster.addLayers(vis);
+    document.getElementById('conteggio').textContent = vis.length + (vis.length===1?' centro':' centri');
+    if (adatta && vis.length) map.fitBounds(L.featureGroup(vis).getBounds(), { padding:[40,40], maxZoom: 13 });
+  }
+  let t; elCerca.addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => applicaFiltri(true), 250); });
+  elReg.onchange = () => applicaFiltri(true);
+  elH24.onchange = () => applicaFiltri(false);
+
+  document.getElementById('vicino').onclick = () => {
+    if (!navigator.geolocation) return alert('Geolocalizzazione non disponibile');
+    navigator.geolocation.getCurrentPosition(pos => {
+      const me = L.latLng(pos.coords.latitude, pos.coords.longitude);
+      L.circleMarker(me, { radius:8, color:'#1a73e8', fillOpacity:.9 }).addTo(map).bindTooltip('Tu sei qui');
+      const vicini = tutti.slice().sort((a,b) => a.getLatLng().distanceTo(me) - b.getLatLng().distanceTo(me)).slice(0,5);
+      map.fitBounds(L.featureGroup(vicini).getBounds().extend(me), { padding:[50,50] });
+    }, () => {}, { enableHighAccuracy:false, timeout:10000 });
+  };
+
+  // ---------- dati ----------
+  fetch('data/centri.geojson', { cache: 'no-cache' }).then(r => r.json()).then(gj => {
+    const md = gj.metadata || {};
+    const dt = md.aggiornamento_mappatura ? 'Mappatura ufficiale aggiornata al ' + md.aggiornamento_mappatura : '';
+    const gen = md.generato_il ? ' · ultima variazione rilevata il ' + new Date(md.generato_il).toLocaleDateString('it-IT') : '';
+    document.getElementById('agg').textContent = (md.totale_centri||'') + ' centri e sportelli · ' + dt + gen;
+
+    L.geoJSON(gj, {
+      pointToLayer: (f, ll) => L.marker(ll, { icon: icona(f.properties.precisione, false), title: f.properties.centro }),
+      onEachFeature: (f, m) => {
+        const p = f.properties;
+        m.bindPopup('<b>'+esc(p.centro)+'</b>'+esc(p.indirizzo)+'<br>'+esc(p.comune)+(p.provincia && p.provincia!==p.comune?' ('+esc(p.provincia)+')':''), { autoPan:true });
+        m.on('click', () => seleziona(m, false));
+        tutti.push(m);
+      }
+    });
+    [...new Set(tutti.map(m => m.feature.properties.regione))].sort((a,b)=>a.localeCompare(b,'it'))
+      .forEach(r => elReg.add(new Option(r, r)));
+    applicaFiltri(false);
+
+    const id = location.hash.slice(1);
+    const m = id && tutti.find(x => x.feature.properties.id === id);
+    if (m) seleziona(m, true);
+  }).catch(() => { document.getElementById('agg').textContent = 'Errore nel caricamento dei dati'; });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,3873 @@
+{
+ "Abruzzo|Chieti|Chieti|Via Spaventa, 47": {
+  "istat": "069022",
+  "precisione": "civico",
+  "pt": [
+   42.34821,
+   14.16408
+  ],
+  "riscontro": "VIA SILVIO E BERTRANDO SPAVENTA 47"
+ },
+ "Abruzzo|Chieti|Città del Vasto|Via Anelli, 71": {
+  "istat": "069099",
+  "precisione": "civico",
+  "pt": [
+   42.103774,
+   14.716706
+  ],
+  "riscontro": "VIA ANELLI 71"
+ },
+ "Abruzzo|Chieti|Francavilla al Mare|Viale Maiella, 21": {
+  "istat": "069035",
+  "precisione": "civico",
+  "pt": [
+   42.43353,
+   14.267507
+  ],
+  "riscontro": "VIALE MAIELLA 21"
+ },
+ "Abruzzo|Chieti|Guardiagrele|Via Occidentale, 62": {
+  "istat": "069043",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   42.1898228,
+   14.207048
+  ],
+  "riscontro": "OpenStreetMap: Via Occidentale, 62, Guardiagrele"
+ },
+ "Abruzzo|Chieti|Lanciano|Via dei Frentani, 54": {
+  "istat": "069046",
+  "precisione": "civico",
+  "pt": [
+   42.233061,
+   14.391739
+  ],
+  "riscontro": "VIA DEI FRENTANI 54"
+ },
+ "Abruzzo|Chieti|Lanciano|Via per Fossacesia, 1 c/o Ospedale F.Renzetti": {
+  "istat": "069046",
+  "precisione": "civico",
+  "pt": [
+   42.229355,
+   14.395919
+  ],
+  "riscontro": "VIA PER FOSSACESIA 1"
+ },
+ "Abruzzo|Chieti|Ortona|Via Giovanni XXIII, 80": {
+  "istat": "069058",
+  "precisione": "civico",
+  "pt": [
+   42.348907,
+   14.40096
+  ],
+  "riscontro": "VIA PAPA GIOVANNI VENTITREESIMO 80"
+ },
+ "Abruzzo|Chieti|Ortona|Via dei Fretani, 33": {
+  "istat": "069058",
+  "precisione": "civico",
+  "pt": [
+   42.356204,
+   14.40063
+  ],
+  "riscontro": "VIA DEI FRENTANI 33"
+ },
+ "Abruzzo|Chieti|San Salvo|Corso Garibaldi, 107": {
+  "istat": "069083",
+  "precisione": "civico",
+  "pt": [
+   42.044407,
+   14.726175
+  ],
+  "riscontro": "CORSO GIUSEPPE GARIBALDI 107"
+ },
+ "Abruzzo|L'Aquila|Avezzano|Via Orazio Mattei n° 10": {
+  "istat": "066006",
+  "precisione": "civico",
+  "pt": [
+   42.029125,
+   13.427599
+  ],
+  "riscontro": "VIA ORAZIO MATTEI 10"
+ },
+ "Abruzzo|L'Aquila|Castel Di Sangro|Palazzo del Principe, Via Costa Calda n.17": {
+  "istat": "066028",
+  "precisione": "via",
+  "pt": [
+   41.785732,
+   14.108517
+  ],
+  "riscontro": "VIA COSTA CALDA (civico più vicino: 16)"
+ },
+ "Abruzzo|L'Aquila|L’Aquila|Via Angelo Colagrande, 2 A/B": {
+  "istat": "066049",
+  "precisione": "civico",
+  "pt": [
+   42.360804,
+   13.407296
+  ],
+  "riscontro": "VIA ANGELO COLAGRANDE 2"
+ },
+ "Abruzzo|L'Aquila|Pratola Peligna|Via Circonvallazione Occidentale, 10": {
+  "istat": "066075",
+  "precisione": "via",
+  "pt": [
+   42.096407,
+   13.87723
+  ],
+  "riscontro": "VIA CIRCONVALLAZIONE OCCIDENTALE (civico più vicino: 14)"
+ },
+ "Abruzzo|L'Aquila|Sulmona|Via Pola, 64/G": {
+  "istat": "066098",
+  "precisione": "civico",
+  "pt": [
+   42.04683,
+   13.93519
+  ],
+  "riscontro": "VIA POLA 64"
+ },
+ "Abruzzo|Pescara|Cepagatti|Via Raffaele d'Ortenzio, 4": {
+  "istat": "068011",
+  "precisione": "civico",
+  "pt": [
+   42.364287,
+   14.073606
+  ],
+  "riscontro": "VIA RAFFAELE D'ORTENZIO 4"
+ },
+ "Abruzzo|Pescara|Pescara|Via Tavo, 248": {
+  "istat": "068028",
+  "precisione": "civico",
+  "pt": [
+   42.451119,
+   14.20084
+  ],
+  "riscontro": "VIA TAVO 248"
+ },
+ "Abruzzo|Pescara|Popoli|Via Bruno Buozzi c/o Stazione ferroviaria": {
+  "istat": "068033",
+  "precisione": "via",
+  "pt": [
+   42.172598,
+   13.828097
+  ],
+  "riscontro": "VIALE BRUNO BUOZZI"
+ },
+ "Abruzzo|Teramo|Alba Adriatica|Via del Concordato, 52": {
+  "istat": "067001",
+  "precisione": "civico",
+  "pt": [
+   42.832918,
+   13.914541
+  ],
+  "riscontro": "VIA DEL CONCORDATO 52"
+ },
+ "Abruzzo|Teramo|Martinsicuro|Via Giovanni Amendola, 24": {
+  "istat": "067047",
+  "precisione": "comune",
+  "pt": [
+   42.86358,
+   13.90809
+  ],
+  "riscontro": null
+ },
+ "Abruzzo|Teramo|Sant'Omero|Via Roma, 9": {
+  "istat": "067039",
+  "precisione": "comune",
+  "pt": [
+   42.7903,
+   13.83261
+  ],
+  "riscontro": null
+ },
+ "Abruzzo|Teramo|Teramo|Via Trento e Trieste, 8": {
+  "istat": "067041",
+  "precisione": "civico",
+  "pt": [
+   42.657809,
+   13.69983
+  ],
+  "riscontro": "VIA TRENTO E TRIESTE 8"
+ },
+ "Abruzzo|Teramo|Tortoreto|Via Trieste, 48": {
+  "istat": "067044",
+  "precisione": "civico",
+  "pt": [
+   42.80253,
+   13.93729
+  ],
+  "riscontro": "VIA TRIESTE 48"
+ },
+ "Basilicata|Matera|Matera|Via Aldo Moro,1": {
+  "istat": "077014",
+  "precisione": "via",
+  "pt": [
+   40.664778,
+   16.59962
+  ],
+  "riscontro": "VIALE ALDO MORO (civico più vicino: 17)"
+ },
+ "Basilicata|Potenza|Potenza|Via Calabria, 1 (sito in Palazzo San Gervasio)": {
+  "istat": "076063",
+  "precisione": "civico",
+  "pt": [
+   40.646153,
+   15.802686
+  ],
+  "riscontro": "VIA CALABRIA 1"
+ },
+ "Basilicata|Potenza|Potenza|Via dei Ligustri,32": {
+  "istat": "076063",
+  "precisione": "civico",
+  "pt": [
+   40.631613,
+   15.800555
+  ],
+  "riscontro": "VIA DEI LIGUSTRI 32"
+ },
+ "Calabria|Catanzaro|Catanzaro|Via Lucrezia della Valle, 106": {
+  "istat": "079023",
+  "precisione": "civico",
+  "pt": [
+   38.896976,
+   16.5922
+  ],
+  "riscontro": "VIALE LUCREZIA DELLA VALLE 106"
+ },
+ "Calabria|Catanzaro|Catanzaro|Via P. Orsi, 1": {
+  "istat": "079023",
+  "precisione": "civico",
+  "pt": [
+   38.895379,
+   16.585654
+  ],
+  "riscontro": "VIA PAOLO ORSI 1"
+ },
+ "Calabria|Catanzaro|Catanzaro|Viale Magna Grecia 272/A": {
+  "istat": "079023",
+  "precisione": "civico",
+  "pt": [
+   38.827561,
+   16.608463
+  ],
+  "riscontro": "VIALE MAGNA GRECIA 272"
+ },
+ "Calabria|Catanzaro|Lamezia Terme|Via Garibaldi, Palazzo Monachelle": {
+  "istat": "079160",
+  "precisione": "via",
+  "pt": [
+   38.977491,
+   16.322105
+  ],
+  "riscontro": "VIA GIUSEPPE GARIBALDI"
+ },
+ "Calabria|Cosenza|Corigliano-Rossano|Via Montessori": {
+  "istat": "078157",
+  "precisione": "via",
+  "pt": [
+   39.62426,
+   16.518398
+  ],
+  "riscontro": "VIA MARIA MONTESSORI"
+ },
+ "Calabria|Cosenza|Cosenza|Via E. Fagiani, 17": {
+  "istat": "078045",
+  "precisione": "civico",
+  "pt": [
+   39.313807,
+   16.24916
+  ],
+  "riscontro": "VIA ERNESTO FAGIANI 17"
+ },
+ "Calabria|Cosenza|Paterno Calabro|Via San Pietro snc": {
+  "istat": "078094",
+  "precisione": "via",
+  "pt": [
+   39.225746,
+   16.263651
+  ],
+  "riscontro": "VIA SAN PIETRO"
+ },
+ "Calabria|Cosenza|Rende|Via G. Verdi, 5 A/B/C": {
+  "istat": "078102",
+  "precisione": "civico",
+  "pt": [
+   39.339401,
+   16.243811
+  ],
+  "riscontro": "VIA GIUSEPPE VERDI 5"
+ },
+ "Calabria|Crotone|Crotone|Via Giovanni Paolo II, 220": {
+  "istat": "101010",
+  "precisione": "civico",
+  "pt": [
+   39.076874,
+   17.106364
+  ],
+  "riscontro": "VIALE PAPA GIOVANNI PAOLO SECONDO 220"
+ },
+ "Calabria|Reggio Calabria|Gallico|Via Scacchieri, 5": {
+  "istat": "080063",
+  "precisione": "comune",
+  "pt": [
+   38.10223,
+   15.7472
+  ],
+  "riscontro": null
+ },
+ "Calabria|Reggio Calabria|Reggio Calabria|Via Galileo Ferraris, 3": {
+  "istat": "080063",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   37.9438193,
+   15.7136492
+  ],
+  "riscontro": "OpenStreetMap: Via Galileo Ferraris, 3, Reggio di Calabria"
+ },
+ "Calabria|Reggio Calabria|Reggio Calabria|Via Ravagnese Superiore, 121": {
+  "istat": "080063",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   38.079067,
+   15.6521067
+  ],
+  "riscontro": "OpenStreetMap: Via Ravagnese Superiore, 121, Reggio di Calabria"
+ },
+ "Calabria|Vibo Valentia|Pizzo|Via Marcello Salomone, snc": {
+  "istat": "102027",
+  "precisione": "via",
+  "pt": [
+   38.735265,
+   16.16356
+  ],
+  "riscontro": "VIA MARCELLO SALOMONE"
+ },
+ "Campania|Avellino|Ariano Irpino Ambito 01|Via Fontana Nuova": {
+  "istat": "064005",
+  "precisione": "comune",
+  "pt": [
+   41.17284,
+   15.10666
+  ],
+  "riscontro": null
+ },
+ "Campania|Avellino|Avellino Ambito A04|Via Fontanatetta 1/B": {
+  "istat": "064008",
+  "precisione": "civico",
+  "pt": [
+   40.920485,
+   14.817775
+  ],
+  "riscontro": "VIA FONTANATETTA 1"
+ },
+ "Campania|Avellino|Avellino – Ambito A04|Corso Europa 27": {
+  "istat": "064008",
+  "precisione": "civico",
+  "pt": [
+   40.912962,
+   14.789845
+  ],
+  "riscontro": "CORSO EUROPA 27"
+ },
+ "Campania|Avellino|Avellino- Ambito 04|Via Piave, 29/D": {
+  "istat": "064008",
+  "precisione": "civico",
+  "pt": [
+   40.919043,
+   14.78764
+  ],
+  "riscontro": "VIA PIAVE 29"
+ },
+ "Campania|Avellino|Mercogliano – Ambito A02|Via Traversa 113 bis": {
+  "istat": "064049",
+  "precisione": "civico",
+  "pt": [
+   40.911104,
+   14.744667
+  ],
+  "riscontro": "VIA TRAVERSA 113"
+ },
+ "Campania|Avellino|Sant’Angelo dei Lombardi – Ambito A 03|Via Quadrivio P.O. G.Criscuoli": {
+  "istat": "064092",
+  "precisione": "comune",
+  "pt": [
+   40.93115,
+   15.17531
+  ],
+  "riscontro": null
+ },
+ "Campania|Avellino|Solofra – Ambito 05|Via Aldo Moro, 10": {
+  "istat": "064101",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   40.830444,
+   14.8477371
+  ],
+  "riscontro": "OpenStreetMap: Via Aldo Moro, 10, Solofra"
+ },
+ "Campania|Benevento|Benevento – Ambito B01|Via Calandra, 7": {
+  "istat": "062008",
+  "precisione": "via",
+  "pt": [
+   41.129248,
+   14.791354
+  ],
+  "riscontro": "VIA NICOLA CALANDRA (civico più vicino: 6)"
+ },
+ "Campania|Benevento|Calvi – Ambito B02|Via Raffaele Villanacci snc": {
+  "istat": "062012",
+  "precisione": "via",
+  "pt": [
+   41.071059,
+   14.866363
+  ],
+  "riscontro": "VIA RAFFAELE VILLANACCI"
+ },
+ "Campania|Benevento|Cerreto Sannita – Ambito B04|Corso Marzio Carafa c/o Palazzo ex Monte di Pietà": {
+  "istat": "062023",
+  "precisione": "via",
+  "pt": [
+   41.28398,
+   14.55866
+  ],
+  "riscontro": "CORSO MARZIO CARAFA"
+ },
+ "Campania|Benevento|Sant’Agata dei Goti- Ambito B03|Via Ponte Vecchio 1": {
+  "istat": "062070",
+  "precisione": "civico",
+  "pt": [
+   41.086774,
+   14.502482
+  ],
+  "riscontro": "VIA PONTEVECCHIO 1"
+ },
+ "Campania|Caserta|Casal di Principe - Ambito C07|Via Benevento 26": {
+  "istat": "061019",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   41.0095603,
+   14.1184562
+  ],
+  "riscontro": "OpenStreetMap: Via Benevento 26, Casal di Principe"
+ },
+ "Campania|Caserta|Caserta – Ambito C01|Via Paul Harris - Palazzo della Salute": {
+  "istat": "061022",
+  "precisione": "via",
+  "pt": [
+   41.056554,
+   14.341881
+  ],
+  "riscontro": "VIALE PAUL HARRIS"
+ },
+ "Campania|Caserta|Maddaloni – Ambito C02|Via Carmignano 5/7, Montedecoro": {
+  "istat": "061048",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   41.0294602,
+   14.4103224
+  ],
+  "riscontro": "OpenStreetMap: Via Carmignano 5/7, Montedecoro, Maddaloni"
+ },
+ "Campania|Caserta|Marcianise – Ambito C05|In attesa della comunicazione del nuovo indirizzo": {
+  "istat": "061049",
+  "precisione": "comune",
+  "pt": [
+   41.02179,
+   14.29357
+  ],
+  "riscontro": null
+ },
+ "Campania|Caserta|Mondragone – Ambito C10|Via Amedeo": {
+  "istat": "061052",
+  "precisione": "via",
+  "pt": [
+   41.114442,
+   13.899993
+  ],
+  "riscontro": "VIA AMEDEO"
+ },
+ "Campania|Caserta|S.Maria Capua Vetere – Ambito C08|Via Francia 10": {
+  "istat": "061083",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   41.0909972,
+   14.2618724
+  ],
+  "riscontro": "OpenStreetMap: Via Francia 10, Santa Maria Capua Vetere"
+ },
+ "Campania|Caserta|Succivo|Via Roma, 12": {
+  "istat": "061090",
+  "precisione": "civico",
+  "pt": [
+   40.965592,
+   14.254098
+  ],
+  "riscontro": "VIA ROMA 12"
+ },
+ "Campania|Caserta|Vairano Pantenora|Via Roma, 65": {
+  "istat": "061095",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   41.3355314,
+   14.1319811
+  ],
+  "riscontro": "OpenStreetMap: Via Roma, 65, Vairano Patenora"
+ },
+ "Campania|Napoli|Acerra|Via Vittorio Emanuele II, 129": {
+  "istat": "063001",
+  "precisione": "civico",
+  "pt": [
+   40.9484,
+   14.38013
+  ],
+  "riscontro": "CORSO VITTORIO EMANUELE II 129"
+ },
+ "Campania|Napoli|Afragola – Ambito N19|Via Plebiscito snc": {
+  "istat": "063002",
+  "precisione": "via",
+  "pt": [
+   40.922973,
+   14.313847
+  ],
+  "riscontro": "VIA PLEBISCITO"
+ },
+ "Campania|Napoli|Ambito territoriale N01-10|Via I Traversa Paolo della Valle n. 22": {
+  "istat": "063049",
+  "precisione": "provincia",
+  "pt": [
+   40.85361,
+   14.24289
+  ],
+  "riscontro": null
+ },
+ "Campania|Napoli|Arzano|Via Napoli, 187": {
+  "istat": "063005",
+  "precisione": "civico",
+  "pt": [
+   40.908471,
+   14.265164
+  ],
+  "riscontro": "VIA NAPOLI 187"
+ },
+ "Campania|Napoli|Casalnuovo di Napoli – Ambito N21|Via Campana, 18": {
+  "istat": "063017",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   40.9148154,
+   14.3463531
+  ],
+  "riscontro": "OpenStreetMap: Via Campana, 18, Casalnuovo di Napoli"
+ },
+ "Campania|Napoli|Casoria - Ambito N18|via Arpino 39": {
+  "istat": "063023",
+  "precisione": "civico",
+  "pt": [
+   40.876174,
+   14.306842
+  ],
+  "riscontro": "VIA ARPINO 39"
+ },
+ "Campania|Napoli|Casoria - Ambito N18|via Pio XII, 130": {
+  "istat": "063023",
+  "precisione": "civico",
+  "pt": [
+   40.900724,
+   14.292852
+  ],
+  "riscontro": "VIA PIO DODICESIMO 130"
+ },
+ "Campania|Napoli|Casoria- Arzano – Casavatore Ambito N18|Via Napoli, 187": {
+  "istat": "063023",
+  "precisione": "via",
+  "pt": [
+   40.911863,
+   14.290423
+  ],
+  "riscontro": "VIA NAPOLI (civico più vicino: 74)"
+ },
+ "Campania|Napoli|Castellammare di Stabia|via Annunziatella, 23": {
+  "istat": "063024",
+  "precisione": "civico",
+  "pt": [
+   40.710692,
+   14.488955
+  ],
+  "riscontro": "VIA ANNUNZIATELLA 23"
+ },
+ "Campania|Napoli|Ercolano – Ambito N29|Via Marconi, 39": {
+  "istat": "063064",
+  "precisione": "civico",
+  "pt": [
+   40.804358,
+   14.356119
+  ],
+  "riscontro": "VIA GUGLIELMO MARCONI 39"
+ },
+ "Campania|Napoli|Frattamaggiore - Sant'Antimo|Piazza Umberto I - Frattamaggiore": {
+  "istat": "063032",
+  "precisione": "via",
+  "pt": [
+   40.941276,
+   14.272341
+  ],
+  "riscontro": "PIAZZA UMBERTO I"
+ },
+ "Campania|Napoli|Giugliano in Campania Ambito N14|Via A.Palumbo 2": {
+  "istat": "063034",
+  "precisione": "via",
+  "pt": [
+   40.926206,
+   14.201851
+  ],
+  "riscontro": "VIA ANIELLO PALUMBO (civico più vicino: 1)"
+ },
+ "Campania|Napoli|Ischia - Ambito N13|Via Morgioni 76": {
+  "istat": "063037",
+  "precisione": "civico",
+  "pt": [
+   40.737139,
+   13.942055
+  ],
+  "riscontro": "VIA MORGIONI 76"
+ },
+ "Campania|Napoli|Mugnano di Napoli - Ambito N16|VIA F. Crispi 10": {
+  "istat": "063048",
+  "precisione": "civico",
+  "pt": [
+   40.906188,
+   14.213949
+  ],
+  "riscontro": "VIA FRANCESCO CRISPI 10"
+ },
+ "Campania|Napoli|Napoli Municipalità I e II – Ambito N01|Via Concezione a Montecalvario, 26": {
+  "istat": "063049",
+  "precisione": "civico",
+  "pt": [
+   40.843038,
+   14.24591
+  ],
+  "riscontro": "VIA CONCEZIONE A MONTECALVARIO 26"
+ },
+ "Campania|Napoli|Napoli Municipalità III - Ambito N01|Viale Colli Aminei, 475b": {
+  "istat": "063049",
+  "precisione": "civico",
+  "pt": [
+   40.868307,
+   14.231076
+  ],
+  "riscontro": "VIALE COLLI AMINEI 475"
+ },
+ "Campania|Napoli|Napoli Municipalità III – Ambito N01|Via S. Agostino degli Scalzi – Salita San Raffaele, 61": {
+  "istat": "063049",
+  "precisione": "via",
+  "pt": [
+   40.855902,
+   14.247529
+  ],
+  "riscontro": "VIA SANT'AGOSTINO DEGLI SCALZI"
+ },
+ "Campania|Napoli|Napoli Municipalità IV E VI - Ambito N01|Viale Hemingway, 102": {
+  "istat": "063049",
+  "precisione": "civico",
+  "pt": [
+   40.868752,
+   14.334498
+  ],
+  "riscontro": "VIALE ERNEST HEMINGWAY 102"
+ },
+ "Campania|Napoli|Napoli Municipalità IX e X - Ambito N01|Via Acate, 65": {
+  "istat": "063049",
+  "precisione": "via",
+  "pt": [
+   40.81817,
+   14.164953
+  ],
+  "riscontro": "VIA ACATE (civico più vicino: 64)"
+ },
+ "Campania|Napoli|Napoli Municipalità IX e X – Ambito N01|via Duca D'Aosta 78/c - presso istituto Russolillo": {
+  "istat": "063049",
+  "precisione": "via",
+  "pt": [
+   40.861207,
+   14.172602
+  ],
+  "riscontro": "CORSO DUCA D'AOSTA (civico più vicino: 79)"
+ },
+ "Campania|Napoli|Napoli Municipalità IX e X – Ambito N01|viale Colli Aminei, 475b": {
+  "istat": "063049",
+  "precisione": "civico",
+  "pt": [
+   40.868307,
+   14.231076
+  ],
+  "riscontro": "VIALE COLLI AMINEI 475"
+ },
+ "Campania|Napoli|Napoli Municipalità V – Ambito N01|Via Giacinto Gigante, 242": {
+  "istat": "063049",
+  "precisione": "civico",
+  "pt": [
+   40.853754,
+   14.231567
+  ],
+  "riscontro": "VIA GIACINTO GIGANTE 242"
+ },
+ "Campania|Napoli|Napoli – Scampia Municipalità VII-VIII Ambito N 01|Via Galileo Galilei, 5": {
+  "istat": "063049",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   40.9017717,
+   14.2338795
+  ],
+  "riscontro": "OpenStreetMap: Via Galileo Galilei, 5, Napoli"
+ },
+ "Campania|Napoli|Nola - Ambito N23|Piazza Duomo, 1": {
+  "istat": "063050",
+  "precisione": "civico",
+  "pt": [
+   40.926017,
+   14.527773
+  ],
+  "riscontro": "PIAZZA DUOMO 1"
+ },
+ "Campania|Napoli|Pomigliano d’Arco – Ambito N25|Via Locatelli 27/29": {
+  "istat": "063057",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   40.910405,
+   14.4010405
+  ],
+  "riscontro": "OpenStreetMap: Via Locatelli 27/29, Pomigliano d'Arco"
+ },
+ "Campania|Napoli|Portici- Ambito N11|Via Garibaldi, 45": {
+  "istat": "063059",
+  "precisione": "comune",
+  "pt": [
+   40.81732,
+   14.34032
+  ],
+  "riscontro": null
+ },
+ "Campania|Napoli|Qualiano|via Santa Maria a Cubito, 418": {
+  "istat": "063062",
+  "precisione": "civico",
+  "pt": [
+   40.928952,
+   14.145374
+  ],
+  "riscontro": "VIA SANTA MARIA A CUBITO 418"
+ },
+ "Campania|Napoli|San Giorgio A Cremano – Ambito N28|Via Francesco Cappiello 119": {
+  "istat": "063067",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   40.8291266,
+   14.3258243
+  ],
+  "riscontro": "OpenStreetMap: Via Francesco Cappiello 119, San Giorgio a Cremano"
+ },
+ "Campania|Napoli|Sant'Antonio Abate Ambito N32; Sportello: Pompei; Sportello: Gragnano|Via Roma 522; Indirizzo Pompei: Piazza Schettini; Indirizzo Gragnano: Via Sepolcri, 15": {
+  "istat": "063074",
+  "precisione": "civico",
+  "pt": [
+   40.72583,
+   14.54852
+  ],
+  "riscontro": "VIA ROMA 522"
+ },
+ "Campania|Napoli|Torre Annunziata – Ambito N30|Via Parini, 78": {
+  "istat": "063083",
+  "precisione": "civico",
+  "pt": [
+   40.758146,
+   14.449138
+  ],
+  "riscontro": "VIA GIUSEPPE PARINI 78"
+ },
+ "Campania|Napoli|Vico Equense|viale della Rimembranza, 1": {
+  "istat": "063086",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   40.6627965,
+   14.4245487
+  ],
+  "riscontro": "OpenStreetMap: viale della Rimembranza, 1, Vico Equense"
+ },
+ "Campania|Salerno|Angri|via Leonardo da Vinci, 18": {
+  "istat": "065007",
+  "precisione": "via",
+  "pt": [
+   40.736689,
+   14.561139
+  ],
+  "riscontro": "VIA LEONARDO DA VINCI (civico più vicino: 9)"
+ },
+ "Campania|Salerno|Atena Lucana – Ambito S10|Via Stazione, snc": {
+  "istat": "065010",
+  "precisione": "via",
+  "pt": [
+   40.456566,
+   15.540597
+  ],
+  "riscontro": "VIA STAZIONE"
+ },
+ "Campania|Salerno|Bellizzi|via Roma, 199": {
+  "istat": "065158",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   40.6206809,
+   14.9452193
+  ],
+  "riscontro": "OpenStreetMap: via Roma, 199, Bellizzi"
+ },
+ "Campania|Salerno|Cava de' Tirreni- Ambito S02|Via Aniello Salsano snc c/o Terza Circoscrizione Pregiato": {
+  "istat": "065037",
+  "precisione": "via",
+  "pt": [
+   40.709154,
+   14.710468
+  ],
+  "riscontro": "VIA ANIELLO SALSANO"
+ },
+ "Campania|Salerno|Eboli - Ambito S03 (ex S05)|Corso Umberto I, 22": {
+  "istat": "065050",
+  "precisione": "civico",
+  "pt": [
+   40.618531,
+   15.057896
+  ],
+  "riscontro": "CORSO UMBERTO PRIMO 22"
+ },
+ "Campania|Salerno|Mercato San Severino – Ambito S06 Baronissi|Piazza Ettore Imperio, 7": {
+  "istat": "065067",
+  "precisione": "via",
+  "pt": [
+   40.785855,
+   14.752965
+  ],
+  "riscontro": "PIAZZA ETTORE IMPERIO (civico più vicino: 6)"
+ },
+ "Campania|Salerno|Minori – Ambito Cava de’ Tirreni 02|Via Roma, 32": {
+  "istat": "065068",
+  "precisione": "comune",
+  "pt": [
+   40.66047,
+   14.62477
+  ],
+  "riscontro": null
+ },
+ "Campania|Salerno|Nocera Inferiore|via Astuti - presso Parco di Luggo": {
+  "istat": "065078",
+  "precisione": "via",
+  "pt": [
+   40.746293,
+   14.636849
+  ],
+  "riscontro": "VIA EDUARDO ASTUTI"
+ },
+ "Campania|Salerno|Palomonte – Ambito S10|Via Valle Alomonte": {
+  "istat": "065089",
+  "precisione": "comune",
+  "pt": [
+   40.65419,
+   15.29666
+  ],
+  "riscontro": null
+ },
+ "Campania|Salerno|Pontecagnano Faiano – Ambito S04_2|Via Torino 46": {
+  "istat": "065099",
+  "precisione": "via",
+  "pt": [
+   40.640862,
+   14.87178
+  ],
+  "riscontro": "VIA TORINO (civico più vicino: 38)"
+ },
+ "Campania|Salerno|Salerno - Ambito S05|Via Quintino di Vona, 2": {
+  "istat": "065116",
+  "precisione": "civico",
+  "pt": [
+   40.660946,
+   14.814682
+  ],
+  "riscontro": "VIA QUINTINO DI VONA 2"
+ },
+ "Campania|Salerno|Salerno – Ambito S05|Via F. Patella, 10": {
+  "istat": "065116",
+  "precisione": "civico",
+  "pt": [
+   40.676622,
+   14.768524
+  ],
+  "riscontro": "VIA FILIPPO PATELLA 10"
+ },
+ "Campania|Salerno|Salerno – Ambito S05|Via G.Quagliariello snc": {
+  "istat": "065116",
+  "precisione": "via",
+  "pt": [
+   40.675277,
+   14.788515
+  ],
+  "riscontro": "VIA GAETANO QUAGLIARIELLO"
+ },
+ "Campania|Salerno|Salerno- Ambito S05|Via G.Ruggi, 42": {
+  "istat": "065116",
+  "precisione": "via",
+  "pt": [
+   40.66782,
+   14.786339
+  ],
+  "riscontro": "VIA GIULIO RUGGI (civico più vicino: 40)"
+ },
+ "Campania|Salerno|San Valentino Torio – Ambito S01_3, Pagani|Via Giacomo Matteotti 13": {
+  "istat": "065132",
+  "precisione": "civico",
+  "pt": [
+   40.792162,
+   14.600822
+  ],
+  "riscontro": "VIA GIACOMO MATTEOTTI 13"
+ },
+ "Campania|Salerno|Sapri – Ambito S09;|Via Garibaldi, 10": {
+  "istat": "065134",
+  "precisione": "civico",
+  "pt": [
+   40.074598,
+   15.629658
+  ],
+  "riscontro": "VIA GIUSEPPE GARIBALDI 10"
+ },
+ "Campania|Salerno|Scafati – Ambito S01_2 Angri|Via Armando Diaz, 88": {
+  "istat": "065137",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   40.7470347,
+   14.5210356
+  ],
+  "riscontro": "OpenStreetMap: Via Armando Diaz, 88, Scafati"
+ },
+ "Campania|Salerno|Serre Ambito S3 ex S5|Viale della Pace, 26": {
+  "istat": "065140",
+  "precisione": "comune",
+  "pt": [
+   40.56351,
+   15.11295
+  ],
+  "riscontro": null
+ },
+ "Campania|Salerno|Trentinara|via Manzoni": {
+  "istat": "065152",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   40.4007452,
+   15.110732
+  ],
+  "riscontro": "OpenStreetMap: via Manzoni, Trentinara"
+ },
+ "Campania|Salerno|Vallo della Lucania – Ambito S08|Piazza Vittorio Emanuele": {
+  "istat": "065154",
+  "precisione": "via",
+  "pt": [
+   40.220081,
+   15.272051
+  ],
+  "riscontro": "PIAZZA VITTORIO EMANUELE"
+ },
+ "Emilia-Romagna|Bologna|Bologna|Piazza San Francesco, 8": {
+  "istat": "037006",
+  "precisione": "civico",
+  "pt": [
+   44.49529,
+   11.33514
+  ],
+  "riscontro": "PIAZZA SAN FRANCESCO 8"
+ },
+ "Emilia-Romagna|Bologna|Bologna|Via Castiglione, 24": {
+  "istat": "037006",
+  "precisione": "civico",
+  "pt": [
+   44.49052,
+   11.34669
+  ],
+  "riscontro": "VIA CASTIGLIONE 24"
+ },
+ "Emilia-Romagna|Bologna|Bologna|Via Saragozza, 221 B": {
+  "istat": "037006",
+  "precisione": "civico",
+  "pt": [
+   44.49014,
+   11.31287
+  ],
+  "riscontro": "VIA SARAGOZZA 221"
+ },
+ "Emilia-Romagna|Bologna|Bologna|via Grimaldi 1": {
+  "istat": "037006",
+  "precisione": "civico",
+  "pt": [
+   44.49953,
+   11.33469
+  ],
+  "riscontro": "VIA PADRE FRANCESCO MARIA GRIMALDI 1"
+ },
+ "Emilia-Romagna|Bologna|Imola|Piazzale Giovanni delle Bande Nere, 11": {
+  "istat": "037032",
+  "precisione": "civico",
+  "pt": [
+   44.353977,
+   11.705645
+  ],
+  "riscontro": "PIAZZALE GIOVANNI DALLE BANDE NERE 11"
+ },
+ "Emilia-Romagna|Bologna|Imola|Via Aldrovandi, 31": {
+  "istat": "037032",
+  "precisione": "civico",
+  "pt": [
+   44.351968,
+   11.715537
+  ],
+  "riscontro": "VIA ULISSE ALDROVANDI 31"
+ },
+ "Emilia-Romagna|Ferrara|Ferrara|Via Terranuova, 12 B": {
+  "istat": "038008",
+  "precisione": "civico",
+  "pt": [
+   44.83536,
+   11.62475
+  ],
+  "riscontro": "VIA TERRANUOVA 12"
+ },
+ "Emilia-Romagna|Forlì-Cesena|Cesena|Via Aldini, 26": {
+  "istat": "040007",
+  "precisione": "civico",
+  "pt": [
+   44.13778,
+   12.24799
+  ],
+  "riscontro": "VIA ALDINI 26"
+ },
+ "Emilia-Romagna|Forlì-Cesena|Forlì|Via Tina Gori, 58": {
+  "istat": "040012",
+  "precisione": "civico",
+  "pt": [
+   44.213886,
+   12.037189
+  ],
+  "riscontro": "VIA TINA GORI 58"
+ },
+ "Emilia-Romagna|Modena|Carpi, Campogalliano, Soliera, Novi di Modena|Via De Amicis, 59 (Centro antiviolenza) Piazza della Pace, 2 (Sportello Campogalliano) Via Roma 104 (Sportello Soliera) Via C. Zoldi, 38 (Novi di Modena)": {
+  "istat": "036005",
+  "precisione": "civico",
+  "pt": [
+   44.787249,
+   10.885836
+  ],
+  "riscontro": "VIALE EDMONDO DE AMICIS 59"
+ },
+ "Emilia-Romagna|Modena|Castelfranco Emilia|Via P. Nenni, 7 (presso Parco Cà Ranuzza)": {
+  "istat": "036006",
+  "precisione": "civico",
+  "pt": [
+   44.588911,
+   11.050056
+  ],
+  "riscontro": "VIA PIETRO NENNI 7"
+ },
+ "Emilia-Romagna|Modena|Medolla, Finale Emilia, Mirandola|Via Milano, 4": {
+  "istat": "036021",
+  "precisione": "civico",
+  "pt": [
+   44.848816,
+   11.066952
+  ],
+  "riscontro": "VIA MILANO 4"
+ },
+ "Emilia-Romagna|Modena|Modena|Strada Vaciglio Nord, 6": {
+  "istat": "036023",
+  "precisione": "civico",
+  "pt": [
+   44.63147,
+   10.93763
+  ],
+  "riscontro": "STRADA VACIGLIO NORD 6"
+ },
+ "Emilia-Romagna|Modena|Sassuolo|Via Adda, 50": {
+  "istat": "036040",
+  "precisione": "civico",
+  "pt": [
+   44.539792,
+   10.797746
+  ],
+  "riscontro": "VIA ADDA 50"
+ },
+ "Emilia-Romagna|Modena|Vignola|Via Marconi 4": {
+  "istat": "036046",
+  "precisione": "civico",
+  "pt": [
+   44.480449,
+   11.012019
+  ],
+  "riscontro": "VIA GUGLIELMO MARCONI 4"
+ },
+ "Emilia-Romagna|Parma|Parma|Vicolo Grossardi, 8": {
+  "istat": "034027",
+  "precisione": "civico",
+  "pt": [
+   44.803957,
+   10.319581
+  ],
+  "riscontro": "VICOLO GROSSARDI 8"
+ },
+ "Emilia-Romagna|Piacenza|Piacenza|Str.ne Farnese, 22": {
+  "istat": "033032",
+  "precisione": "civico",
+  "pt": [
+   45.047517,
+   9.694486
+  ],
+  "riscontro": "STRADONE FARNESE 22"
+ },
+ "Emilia-Romagna|Ravenna|Faenza, Riolo Terme, Savignano sul Rubicone|Via Laderchi, 3 (Centro antiviolenza) Via f.lli Cardinali Cicognani, 76 (Sportello a Brisighella) Via Tarlombani, 10 (Sportello a Riolo Terme) Corso Perticari, 124 (Sportello a Savignano sul Rubicone)": {
+  "istat": "039010",
+  "precisione": "civico",
+  "pt": [
+   44.28683,
+   11.88373
+  ],
+  "riscontro": "VIA LADERCHI 3"
+ },
+ "Emilia-Romagna|Ravenna|Lugo|Corso Garibaldi, 116": {
+  "istat": "039012",
+  "precisione": "civico",
+  "pt": [
+   44.415391,
+   11.906824
+  ],
+  "riscontro": "CORSO GIUSEPPE GARIBALDI 116"
+ },
+ "Emilia-Romagna|Ravenna|Ravenna, Russi, Cervia|Via Giuseppe Mazzini, 57 A (Centro antiviolenza) Via G. Bruno, 21 (Sportello a Russi) Via Leonardo da Vinci 2C (Sportello a Cervia)": {
+  "istat": "039014",
+  "precisione": "civico",
+  "pt": [
+   44.413567,
+   12.201027
+  ],
+  "riscontro": "VIA GIUSEPPE MAZZINI 57"
+ },
+ "Emilia-Romagna|Reggio nell'Emilia|Reggio Emilia|Via Melegari, 2/A": {
+  "istat": "035033",
+  "precisione": "civico",
+  "pt": [
+   44.70412,
+   10.65278
+  ],
+  "riscontro": "VIA LUIGI AMEDEO MELEGARI 2"
+ },
+ "Emilia-Romagna|Rimini|Cattolica, Coriano, Misano, Morciano, Riccione, San Clemente, San Giovanni in Marignano|Piazzale della Repubblica, 15": {
+  "istat": "099002",
+  "precisione": "civico",
+  "pt": [
+   43.961026,
+   12.74884
+  ],
+  "riscontro": "PIAZZALE DELLA REPUBBLICA 15"
+ },
+ "Emilia-Romagna|Rimini|Rimini, Santarcangelo di Romagna, Verucchio, Bellaria-Igea Marina|Via Bufalini, 47 (Centro antiviolenza) Via Dante di Nanni, 16 (Sportello a Santarcangelo di Romagna) Piazza Europa, 1 (Sportello a Verucchio) Piazza Falcone Borsellino, 19 (Sportello a Bellaria-Igea Marina)": {
+  "istat": "099014",
+  "precisione": "civico",
+  "pt": [
+   44.058252,
+   12.570924
+  ],
+  "riscontro": "VIA MAURIZIO BUFALINI 47"
+ },
+ "Emilia-Romagna|Rimini|Santarcangelo|Via Dante di Nanni 16": {
+  "istat": "099018",
+  "precisione": "civico",
+  "pt": [
+   44.062419,
+   12.447035
+  ],
+  "riscontro": "VIA DANTE DI NANNI 16"
+ },
+ "Emilia-Romagna||Bologna|Via M. Masia 19/A (Centro antiviolenza) Via Ranzani, 14 (Sportello Universitario) Piazza Giovanni XXIII (Sportello ad Anzola)": {
+  "istat": "037006",
+  "precisione": "civico",
+  "pt": [
+   44.49715,
+   11.36363
+  ],
+  "riscontro": "VIA MASSENZIO MASIA 19"
+ },
+ "Friuli-Venezia Giulia|Gorizia|Gorizia, Gradisca d'Isonzo, Aquileia, Gonars, Trevignano Udinese|Via A. Diaz, 5": {
+  "istat": "031007",
+  "precisione": "civico",
+  "pt": [
+   45.943235,
+   13.618898
+  ],
+  "riscontro": "VIA ARMANDO DIAZ 5D"
+ },
+ "Friuli-Venezia Giulia|Gorizia|Grado|Via Michelangelo Buonarroti, 10": {
+  "istat": "031009",
+  "precisione": "civico",
+  "pt": [
+   45.679073,
+   13.382577
+  ],
+  "riscontro": "VIA MICHELANGELO BUONARROTI 10"
+ },
+ "Friuli-Venezia Giulia|Gorizia|Monfalcone|Via Galvani, 18": {
+  "istat": "031012",
+  "precisione": "civico",
+  "pt": [
+   45.81378,
+   13.51988
+  ],
+  "riscontro": "VIA LUIGI GALVANI 18"
+ },
+ "Friuli-Venezia Giulia|Pordenone|Pordenone|Viale Dante, 19": {
+  "istat": "093033",
+  "precisione": "civico",
+  "pt": [
+   45.96006,
+   12.66412
+  ],
+  "riscontro": "VIALE DANTE 19"
+ },
+ "Friuli-Venezia Giulia|Trieste|Trieste|Via San Silvestro, 3-5": {
+  "istat": "032006",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.6480581,
+   13.7687871
+  ],
+  "riscontro": "OpenStreetMap: Via San Silvestro, 3-5, Trieste"
+ },
+ "Friuli-Venezia Giulia|Udine|Tolmezzo|Via R.Del Din,9A": {
+  "istat": "030121",
+  "precisione": "civico",
+  "pt": [
+   46.40466,
+   13.014952
+  ],
+  "riscontro": "VIA DEL DIN RENATO 9"
+ },
+ "Friuli-Venezia Giulia|Udine|Udine|Via Pradamano, 41/B": {
+  "istat": "030129",
+  "precisione": "civico",
+  "pt": [
+   46.05286,
+   13.25304
+  ],
+  "riscontro": "VIA PRADAMANO 41"
+ },
+ "Friuli-Venezia Giulia|Udine|Udine|Via San Valentino, 18/20": {
+  "istat": "030129",
+  "precisione": "civico",
+  "pt": [
+   46.06694,
+   13.2435
+  ],
+  "riscontro": "VIA SAN VALENTINO 18"
+ },
+ "Lazio|Frosinone|Cassino|Via Giacomo Puccini 51": {
+  "istat": "060019",
+  "precisione": "civico",
+  "pt": [
+   41.490786,
+   13.830549
+  ],
+  "riscontro": "VIA GIACOMO PUCCINI 51"
+ },
+ "Lazio|Frosinone|Cassino|Viale dell’università Polo Folcara stanza B - 1/39": {
+  "istat": "060019",
+  "precisione": "comune",
+  "pt": [
+   41.48025,
+   13.84291
+  ],
+  "riscontro": null
+ },
+ "Lazio|Frosinone|Ceccano|Via Giovanni Falcone (piano terra ex Pretura)": {
+  "istat": "060024",
+  "precisione": "via",
+  "pt": [
+   41.568175,
+   13.33022
+  ],
+  "riscontro": "VIA GIOVANNI FALCONE"
+ },
+ "Lazio|Frosinone|Fiuggi|Via Armando Diaz, 530": {
+  "istat": "060035",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   41.795729,
+   13.2275381
+  ],
+  "riscontro": "OpenStreetMap: Via Armando Diaz, 530, Fiuggi"
+ },
+ "Lazio|Frosinone|Frosinone|Corso della Repubblica, 130": {
+  "istat": "060038",
+  "precisione": "civico",
+  "pt": [
+   41.636249,
+   13.352796
+  ],
+  "riscontro": "CORSO DELLA REPUBBLICA 130"
+ },
+ "Lazio|Frosinone|Frosinone|Piazza Domenico Marzi, 1 – Piano S1": {
+  "istat": "060038",
+  "precisione": "civico",
+  "pt": [
+   41.641279,
+   13.350895
+  ],
+  "riscontro": "PIAZZA DOMENICO MARZI 1"
+ },
+ "Lazio|Frosinone|Frosinone|Piazza VI dicembre, 2": {
+  "istat": "060038",
+  "precisione": "civico",
+  "pt": [
+   41.639412,
+   13.350773
+  ],
+  "riscontro": "PIAZZA SEI DICEMBRE 2"
+ },
+ "Lazio|Frosinone|Sora|Lungoliri Cavour, 12": {
+  "istat": "060074",
+  "precisione": "civico",
+  "pt": [
+   41.719066,
+   13.611391
+  ],
+  "riscontro": "VIA LUNGOLIRI CAVOUR 12"
+ },
+ "Lazio|Frosinone|Sora|Via Gabriele d’annunzio 17 c/o AIPES": {
+  "istat": "060074",
+  "precisione": "civico",
+  "pt": [
+   41.714341,
+   13.606048
+  ],
+  "riscontro": "VIA GABRIELE D'ANNUNZIO 17"
+ },
+ "Lazio|Latina|Aprilia, Cisterna di Latina, Cori, Rocca Massima|Via Pontina Km 46,600": {
+  "istat": "059001",
+  "precisione": "via",
+  "pt": [
+   41.566579,
+   12.673822
+  ],
+  "riscontro": "VIA PONTINA"
+ },
+ "Lazio|Latina|Latina|Viale dicembre, 43": {
+  "istat": "059011",
+  "precisione": "civico",
+  "pt": [
+   41.47125,
+   12.90237
+  ],
+  "riscontro": "VIA DICIOTTO DICEMBRE 43"
+ },
+ "Lazio|Latina|Priverno|via Giacomo Matteotti": {
+  "istat": "059019",
+  "precisione": "via",
+  "pt": [
+   41.471735,
+   13.178248
+  ],
+  "riscontro": "VIA GIACOMO MATTEOTTI"
+ },
+ "Lazio|Latina|Sezze|Via A. Diaz, 1": {
+  "istat": "059028",
+  "precisione": "civico",
+  "pt": [
+   41.49845,
+   13.05832
+  ],
+  "riscontro": "VIA ARMANDO DIAZ 1"
+ },
+ "Lazio|Rieti|Rieti|Piazza Vittorio Emanuele II 17 B": {
+  "istat": "057059",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   42.4026266,
+   12.8605402
+  ],
+  "riscontro": "OpenStreetMap: Piazza Vittorio Emanuele II 17 B, Rieti"
+ },
+ "Lazio|Roma|Anguillara|Via del Fosso Pietroso 9": {
+  "istat": "058005",
+  "precisione": "via",
+  "pt": [
+   42.04269,
+   12.257129
+  ],
+  "riscontro": "VIA FOSSO PIETROSO (civico più vicino: 8)"
+ },
+ "Lazio|Roma|Ariccia|Via delle Cerquette, 2": {
+  "istat": "058009",
+  "precisione": "civico",
+  "pt": [
+   41.726304,
+   12.679541
+  ],
+  "riscontro": "VIA DELLE CERQUETTE 2"
+ },
+ "Lazio|Roma|Cerveteri|Via Bastioni, 46": {
+  "istat": "058029",
+  "precisione": "civico",
+  "pt": [
+   41.997786,
+   12.097088
+  ],
+  "riscontro": "VIA BASTIONI 46"
+ },
+ "Lazio|Roma|Fiumicino Maccarese|Via del Buttero, 3 (c/o Casa della Partecipazione MACCARESE)": {
+  "istat": "058120",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   41.8771587,
+   12.2148206
+  ],
+  "riscontro": "OpenStreetMap: Via del Buttero, 3, Fiumicino"
+ },
+ "Lazio|Roma|Formello, Fiano Romano, Rignano Flaminio|Via XX Settembre, 2": {
+  "istat": "058038",
+  "precisione": "civico",
+  "pt": [
+   42.080071,
+   12.400567
+  ],
+  "riscontro": "VIA VENTI SETTEMBRE 2"
+ },
+ "Lazio|Roma|Guidonia Montecelio|Via Casal Bianco, 18": {
+  "istat": "058047",
+  "precisione": "civico",
+  "pt": [
+   41.98289,
+   12.712602
+  ],
+  "riscontro": "VIA CASAL BIANCO 18"
+ },
+ "Lazio|Roma|Nettuno, Ardea, Anzio, Pomezia|Via Bachelet, 13; Sportello di Ardea nella sede dell'ASL": {
+  "istat": "058072",
+  "precisione": "civico",
+  "pt": [
+   41.458068,
+   12.680445
+  ],
+  "riscontro": "VIA VITTORIO BACHELET 13"
+ },
+ "Lazio|Roma|Rocca Priora|Via Malpasso d’Acqua": {
+  "istat": "058088",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   41.7932052,
+   12.7575357
+  ],
+  "riscontro": "OpenStreetMap: Via Malpasso d'Acqua, Rocca Priora"
+ },
+ "Lazio|Roma|Roma - Municipio III|Via Titano, 3": {
+  "istat": "058091",
+  "precisione": "civico",
+  "pt": [
+   41.936276,
+   12.535354
+  ],
+  "riscontro": "VIA TITANO 3"
+ },
+ "Lazio|Roma|Roma - Municipio II|Via Dalmazia, 25": {
+  "istat": "058091",
+  "precisione": "civico",
+  "pt": [
+   41.915411,
+   12.505767
+  ],
+  "riscontro": "VIA DALMAZIA 25"
+ },
+ "Lazio|Roma|Roma - Municipio II|Via dello Scalo di San Lorenzo 61/B": {
+  "istat": "058091",
+  "precisione": "civico",
+  "pt": [
+   41.895842,
+   12.518152
+  ],
+  "riscontro": "VIALE DELLO SCALO SAN LORENZO 61"
+ },
+ "Lazio|Roma|Roma - Municipio IV|Via Siro Solazzi, 3": {
+  "istat": "058091",
+  "precisione": "via",
+  "pt": [
+   41.95115,
+   12.58601
+  ],
+  "riscontro": "VIA SIRO SOLAZZI (civico più vicino: 1)"
+ },
+ "Lazio|Roma|Roma - Municipio IX|Via Nicola Stame, 160/162": {
+  "istat": "058091",
+  "precisione": "via",
+  "pt": [
+   41.788698,
+   12.441206
+  ],
+  "riscontro": "VIA NICOLA STAME (civico più vicino: 159)"
+ },
+ "Lazio|Roma|Roma - Municipio I|Circ.ne Trionfale, 19": {
+  "istat": "058091",
+  "precisione": "comune",
+  "pt": [
+   41.89816,
+   12.54504
+  ],
+  "riscontro": null
+ },
+ "Lazio|Roma|Roma - Municipio I|Viale Mazzini, 73": {
+  "istat": "058091",
+  "precisione": "civico",
+  "pt": [
+   41.915253,
+   12.462461
+  ],
+  "riscontro": "VIALE GIUSEPPE MAZZINI 73"
+ },
+ "Lazio|Roma|Roma - Municipio VIII|Via Ostiense, 147": {
+  "istat": "058091",
+  "precisione": "civico",
+  "pt": [
+   41.86312,
+   12.479112
+  ],
+  "riscontro": "VIA OSTIENSE 147"
+ },
+ "Lazio|Roma|Roma - Municipio VIII|Via di Grottaperfetta, 610": {
+  "istat": "058091",
+  "precisione": "civico",
+  "pt": [
+   41.83139,
+   12.515833
+  ],
+  "riscontro": "VIA DI GROTTA PERFETTA 610"
+ },
+ "Lazio|Roma|Roma - Municipio VII|Via Cornelio Sisenna, 53": {
+  "istat": "058091",
+  "precisione": "civico",
+  "pt": [
+   41.869748,
+   12.575518
+  ],
+  "riscontro": "VIA CORNELIO SISENNA 53"
+ },
+ "Lazio|Roma|Roma - Municipio VII|Via Di Torre Spaccata, 157": {
+  "istat": "058091",
+  "precisione": "civico",
+  "pt": [
+   41.863497,
+   12.58593
+  ],
+  "riscontro": "VIA DI TORRE SPACCATA 157"
+ },
+ "Lazio|Roma|Roma - Municipio VII|Via Tommaso Fortifiocca, 71": {
+  "istat": "058091",
+  "precisione": "civico",
+  "pt": [
+   41.870521,
+   12.522923
+  ],
+  "riscontro": "VIA TOMMASO FORTIFIOCCA 71"
+ },
+ "Lazio|Roma|Roma - Municipio VI|Via Columbia, 1 Macro Area lettere e filosofia": {
+  "istat": "058091",
+  "precisione": "via",
+  "pt": [
+   41.853954,
+   12.617752
+  ],
+  "riscontro": "VIA COLUMBIA (civico più vicino: 9)"
+ },
+ "Lazio|Roma|Roma - Municipio V|Via Roberto Lepetit, 176": {
+  "istat": "058091",
+  "precisione": "via",
+  "pt": [
+   41.886263,
+   12.584239
+  ],
+  "riscontro": "VIA ROBERTO LEPETIT (civico più vicino: 175)"
+ },
+ "Lazio|Roma|Roma - Municipio V|Via del Pigneto, 281": {
+  "istat": "058091",
+  "precisione": "civico",
+  "pt": [
+   41.887369,
+   12.533932
+  ],
+  "riscontro": "VIA DEL PIGNETO 281"
+ },
+ "Lazio|Roma|Roma - Municipio XIII|Via dei Gozzadini, 38": {
+  "istat": "058091",
+  "precisione": "civico",
+  "pt": [
+   41.895863,
+   12.434688
+  ],
+  "riscontro": "VIA DEI GOZZADINI 38"
+ },
+ "Lazio|Roma|Roma - Municipio XIV|Via Casal del Marmo, 118": {
+  "istat": "058091",
+  "precisione": "civico",
+  "pt": [
+   41.960378,
+   12.407767
+  ],
+  "riscontro": "VIA DI CASAL DEL MARMO 118"
+ },
+ "Lazio|Roma|Roma - Municipio XI|Via Fabio Conforto, 9-11": {
+  "istat": "058091",
+  "precisione": "civico",
+  "pt": [
+   41.8645,
+   12.473759
+  ],
+  "riscontro": "VIA FABIO CONFORTO 9"
+ },
+ "Lazio|Roma|Roma - Municipio XI|Via Monte delle Capre, 23": {
+  "istat": "058091",
+  "precisione": "civico",
+  "pt": [
+   41.8447,
+   12.43401
+  ],
+  "riscontro": "VIA DEL MONTE DELLE CAPRE 23"
+ },
+ "Lazio|Roma|Roma - Municipio XV|Via Cassia, 5": {
+  "istat": "058091",
+  "precisione": "civico",
+  "pt": [
+   41.939016,
+   12.466003
+  ],
+  "riscontro": "VIA CASSIA 5"
+ },
+ "Lazio|Roma|Roma|Viale di Villa Pamphili, 71": {
+  "istat": "058091",
+  "precisione": "civico",
+  "pt": [
+   41.878779,
+   12.456466
+  ],
+  "riscontro": "VIALE DI VILLA PAMPHILI 71B"
+ },
+ "Lazio|Roma|Tivoli|Via Lione, 11": {
+  "istat": "058104",
+  "precisione": "civico",
+  "pt": [
+   41.96343,
+   12.79813
+  ],
+  "riscontro": "VIA LIONE 11"
+ },
+ "Lazio|Roma|Valmontone|Via Colle Tocciarello, 1": {
+  "istat": "058110",
+  "precisione": "via",
+  "pt": [
+   41.773341,
+   12.930108
+  ],
+  "riscontro": "VIA COLLE TOCCIARELLO (civico più vicino: 2)"
+ },
+ "Lazio|Viterbo|Vetralla|Piazza Guglielmo Marconi, 34": {
+  "istat": "056057",
+  "precisione": "civico",
+  "pt": [
+   42.3182,
+   12.059754
+  ],
+  "riscontro": "PIAZZA GUGLIELMO MARCONI 34"
+ },
+ "Lazio|Viterbo|Viterbo|Via Santa Maria in Gradi, 4": {
+  "istat": "056059",
+  "precisione": "civico",
+  "pt": [
+   42.414501,
+   12.110159
+  ],
+  "riscontro": "VIA SANTA MARIA IN GRADI 4"
+ },
+ "Lazio|Viterbo|Viterbo|Via delle Mura, 17": {
+  "istat": "056059",
+  "precisione": "civico",
+  "pt": [
+   42.420353,
+   12.102696
+  ],
+  "riscontro": "VIA DELLE MURA 17"
+ },
+ "Liguria|Genova|Chiavari|Piazza Fenice, 5/1B": {
+  "istat": "010015",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   44.3175215,
+   9.3257308
+  ],
+  "riscontro": "OpenStreetMap: Piazza Fenice, 5/1B, Chiavari"
+ },
+ "Liguria|Genova|Genova|Piazza Colombo, 3/7": {
+  "istat": "010025",
+  "precisione": "civico",
+  "pt": [
+   44.406417,
+   8.943258
+  ],
+  "riscontro": "PIAZZA COLOMBO 3"
+ },
+ "Liguria|Genova|Genova|Via Cairoli 14/7": {
+  "istat": "010025",
+  "precisione": "civico",
+  "pt": [
+   44.411996,
+   8.93056
+  ],
+  "riscontro": "VIA CAIROLI 14"
+ },
+ "Liguria|Genova|Genova|Via Piccone 13/2": {
+  "istat": "010025",
+  "precisione": "civico",
+  "pt": [
+   44.430872,
+   8.892606
+  ],
+  "riscontro": "VIA ANTONIO PICCONE 13"
+ },
+ "Liguria|Genova|Mignanego|Via V. Veneto, 143/2": {
+  "istat": "010035",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   44.5159656,
+   8.9134545
+  ],
+  "riscontro": "OpenStreetMap: Via V. Veneto, 143/2, Mignanego"
+ },
+ "Liguria|Genova|Recco|Via XXV Aprile, 13/4": {
+  "istat": "010047",
+  "precisione": "civico",
+  "pt": [
+   44.363565,
+   9.144166
+  ],
+  "riscontro": "VIA VENTICINQUE APRILE 13"
+ },
+ "Liguria|Imperia|Imperia, Sanremo, Ventimiglia|Viale Matteotti, 28 (Imperia); Via Peirogallo, 16 (Sanremo); Piazza XX Settembre (Ventimiglia)": {
+  "istat": "008031",
+  "precisione": "civico",
+  "pt": [
+   43.881779,
+   8.020059
+  ],
+  "riscontro": "VIALE GIACOMO MATTEOTTI 28"
+ },
+ "Liguria|La Spezia|La Spezia|Via Migliari, 21": {
+  "istat": "011015",
+  "precisione": "civico",
+  "pt": [
+   44.11025,
+   9.817774
+  ],
+  "riscontro": "VIA RICCARDO MIGLIARI 21"
+ },
+ "Liguria|La Spezia|Sarzana|Piazza Ricchetti, 3": {
+  "istat": "011027",
+  "precisione": "via",
+  "pt": [
+   44.114946,
+   9.964528
+  ],
+  "riscontro": "PIAZZA DINO RICCHETTI (civico più vicino: 8)"
+ },
+ "Liguria|Savona|Albenga, Loano|Via Reg. Bagnoli, 39": {
+  "istat": "009002",
+  "precisione": "civico",
+  "pt": [
+   44.063196,
+   8.199063
+  ],
+  "riscontro": "REGIONE BAGNOLI 39"
+ },
+ "Liguria|Savona|Savona|Via Sormano, 12": {
+  "istat": "009056",
+  "precisione": "civico",
+  "pt": [
+   44.310021,
+   8.477839
+  ],
+  "riscontro": "VIA DEI SORMANO 12"
+ },
+ "Lombardia|Bergamo|Bergamo|Via San Lazzaro, 3": {
+  "istat": "016024",
+  "precisione": "civico",
+  "pt": [
+   45.692339,
+   9.662465
+  ],
+  "riscontro": "VIA SAN LAZZARO 3"
+ },
+ "Lombardia|Bergamo|San Pellegrino Terme, Santomobono Terme, Almenno San Bartolomeo|Via San Carlo, 32": {
+  "istat": "016190",
+  "precisione": "civico",
+  "pt": [
+   45.838015,
+   9.663996
+  ],
+  "riscontro": "VIA SAN CARLO 32"
+ },
+ "Lombardia|Bergamo|Seriate|Via Chiesa San Grisogono, 18": {
+  "istat": "016198",
+  "precisione": "civico",
+  "pt": [
+   45.685957,
+   9.719356
+  ],
+  "riscontro": "VIA CHIESA SAN GRISOGONO 18"
+ },
+ "Lombardia|Bergamo|Terno d'Isola|Via Trento, 5": {
+  "istat": "016213",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.6863365,
+   9.5298374
+  ],
+  "riscontro": "OpenStreetMap: Via Trento, 5, Terno d'Isola"
+ },
+ "Lombardia|Bergamo|Treviglio, Romano di Lombardia, Rivolta d’Adda, Brignano Gera d’Adda,Castel Rozzone|Via Roggia Vignola, 18": {
+  "istat": "016219",
+  "precisione": "civico",
+  "pt": [
+   45.512959,
+   9.59057
+  ],
+  "riscontro": "VIA ROGGIA VIGNOLA 18"
+ },
+ "Lombardia|Brescia|Brescia|Via Bertoni, 6": {
+  "istat": "017029",
+  "precisione": "civico",
+  "pt": [
+   45.532271,
+   10.241905
+  ],
+  "riscontro": "VIA FERDINANDO BERTONI 6"
+ },
+ "Lombardia|Brescia|Brescia|Via Risorgimento 18": {
+  "istat": "017029",
+  "precisione": "civico",
+  "pt": [
+   45.562571,
+   10.203565
+  ],
+  "riscontro": "VIA DEL RISORGIMENTO 18"
+ },
+ "Lombardia|Brescia|Brescia|Via S. Faustino, 38": {
+  "istat": "017029",
+  "precisione": "civico",
+  "pt": [
+   45.542115,
+   10.219624
+  ],
+  "riscontro": "VIA SAN FAUSTINO 38"
+ },
+ "Lombardia|Brescia|Darfo|Via Barbolini, 4": {
+  "istat": "017065",
+  "precisione": "civico",
+  "pt": [
+   45.875347,
+   10.180383
+  ],
+  "riscontro": "VIA ARMANDO BARBOLINI 4"
+ },
+ "Lombardia|Brescia|Iseo|Piazza Arsenale 1": {
+  "istat": "017085",
+  "precisione": "comune",
+  "pt": [
+   45.66646,
+   10.03955
+  ],
+  "riscontro": null
+ },
+ "Lombardia|Brescia|Manerbio|Via Magenta 47": {
+  "istat": "017103",
+  "precisione": "civico",
+  "pt": [
+   45.355723,
+   10.13746
+  ],
+  "riscontro": "VIA MAGENTA 47"
+ },
+ "Lombardia|Brescia|Salò|Via Fantoni, 86": {
+  "istat": "017170",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.6071919,
+   10.5317556
+  ],
+  "riscontro": "OpenStreetMap: Via Fantoni, 86, Salò"
+ },
+ "Lombardia|Como|Como|Via Giuseppe Ferrari, 9": {
+  "istat": "013075",
+  "precisione": "civico",
+  "pt": [
+   45.810498,
+   9.090539
+  ],
+  "riscontro": "VIA GIUSEPPE FERRARI 9"
+ },
+ "Lombardia|Como|Mariano Comense|Via Santo Stefano, 40": {
+  "istat": "013143",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.6943883,
+   9.1754496
+  ],
+  "riscontro": "OpenStreetMap: Via Santo Stefano, 40, Mariano Comense"
+ },
+ "Lombardia|Cremona|Casalmaggiore|Via Achille Grandi, 28": {
+  "istat": "019021",
+  "precisione": "civico",
+  "pt": [
+   44.982678,
+   10.421952
+  ],
+  "riscontro": "VIA ACHILLE GRANDI 28"
+ },
+ "Lombardia|Cremona|Crema|Via Mercato, 27": {
+  "istat": "019035",
+  "precisione": "civico",
+  "pt": [
+   45.362491,
+   9.680786
+  ],
+  "riscontro": "VIA MERCATO 27"
+ },
+ "Lombardia|Cremona|Cremona|Via Palestro, 28": {
+  "istat": "019036",
+  "precisione": "civico",
+  "pt": [
+   45.13802,
+   10.020358
+  ],
+  "riscontro": "VIA PALESTRO 28"
+ },
+ "Lombardia|Lecco|Lecco|Via Solferino, 13 A": {
+  "istat": "097042",
+  "precisione": "civico",
+  "pt": [
+   45.860406,
+   9.398819
+  ],
+  "riscontro": "VIA SOLFERINO 13"
+ },
+ "Lombardia|Lecco|Merate, Casatenovo|Via Sant'Ambrogio, 17": {
+  "istat": "097048",
+  "precisione": "civico",
+  "pt": [
+   45.697638,
+   9.42048
+  ],
+  "riscontro": "VIA SANT'AMBROGIO 17"
+ },
+ "Lombardia|Lodi|Lodi|Via Gorini, 21": {
+  "istat": "098031",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.3114446,
+   9.5074137
+  ],
+  "riscontro": "OpenStreetMap: Via Gorini, 21, Lodi"
+ },
+ "Lombardia|Mantova|Mantova|Via Giovanni Falcone, 1": {
+  "istat": "020030",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.1357921,
+   10.8746759
+  ],
+  "riscontro": "OpenStreetMap: Via Giovanni Falcone, 1, Mantova"
+ },
+ "Lombardia|Mantova|Mantova|Via Indipendenza 2": {
+  "istat": "020030",
+  "precisione": "via",
+  "pt": [
+   45.146019,
+   10.769529
+  ],
+  "riscontro": "VIA INDIPENDENZA (civico più vicino: 67)"
+ },
+ "Lombardia|Mantova|Mantova|Via Vittorino da Feltre, 46": {
+  "istat": "020030",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.1504786,
+   10.7916338
+  ],
+  "riscontro": "OpenStreetMap: Via Vittorino da Feltre, 46, Mantova"
+ },
+ "Lombardia|Milano|Bresso|Via Bologna,4": {
+  "istat": "015032",
+  "precisione": "civico",
+  "pt": [
+   45.536776,
+   9.184641
+  ],
+  "riscontro": "VIA GIUSEPPE BOLOGNA 4"
+ },
+ "Lombardia|Milano|Cinisello Balsamo|Via Gorki, 50 - c/o Ospedale Bassini": {
+  "istat": "015077",
+  "precisione": "civico",
+  "pt": [
+   45.546379,
+   9.216799
+  ],
+  "riscontro": "VIA MASSIMO GORKI 50"
+ },
+ "Lombardia|Milano|Corsico|Via Marzabotto, 12": {
+  "istat": "015093",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.4395971,
+   9.0950932
+  ],
+  "riscontro": "OpenStreetMap: Via Marzabotto, 12, Corsico"
+ },
+ "Lombardia|Milano|Legnano|Via XX settembre, 30": {
+  "istat": "015118",
+  "precisione": "civico",
+  "pt": [
+   45.58872,
+   8.907729
+  ],
+  "riscontro": "VIA VENTI SETTEMBRE 30"
+ },
+ "Lombardia|Milano|Magenta|": {
+  "istat": "015130",
+  "precisione": "comune",
+  "pt": [
+   45.45129,
+   8.8613
+  ],
+  "riscontro": null
+ },
+ "Lombardia|Milano|Melzo, Cassano d'Adda, Cernusco sul Naviglio, Pioltello, Trezzano Rosa|Via Verdi, 22": {
+  "istat": "015142",
+  "precisione": "civico",
+  "pt": [
+   45.495063,
+   9.423107
+  ],
+  "riscontro": "VIA GIUSEPPE VERDI 22"
+ },
+ "Lombardia|Milano|Milano|Piazza Ospedale Maggiore, 3": {
+  "istat": "015146",
+  "precisione": "civico",
+  "pt": [
+   45.50923,
+   9.188681
+  ],
+  "riscontro": "PIAZZA DELL'OSPEDALE MAGGIORE 3"
+ },
+ "Lombardia|Milano|Milano|Piazza XXV Aprile, 2": {
+  "istat": "015146",
+  "precisione": "civico",
+  "pt": [
+   45.480201,
+   9.187035
+  ],
+  "riscontro": "PIAZZA VENTICINQUE APRILE 2"
+ },
+ "Lombardia|Milano|Milano|Via Giovanni Pacini, 20": {
+  "istat": "015146",
+  "precisione": "civico",
+  "pt": [
+   45.481705,
+   9.228171
+  ],
+  "riscontro": "VIA GIOVANNI PACINI 20"
+ },
+ "Lombardia|Milano|Milano|Via Piacenza,14": {
+  "istat": "015146",
+  "precisione": "civico",
+  "pt": [
+   45.449007,
+   9.20457
+  ],
+  "riscontro": "VIA PIACENZA 14"
+ },
+ "Lombardia|Milano|Milano|Via Pio II, 3": {
+  "istat": "015146",
+  "precisione": "civico",
+  "pt": [
+   45.46917,
+   9.114059
+  ],
+  "riscontro": "VIA PIO SECONDO 3"
+ },
+ "Lombardia|Milano|Milano|Via Rutilia, 28": {
+  "istat": "015146",
+  "precisione": "civico",
+  "pt": [
+   45.440259,
+   9.196063
+  ],
+  "riscontro": "VIA RUTILIA 28"
+ },
+ "Lombardia|Milano|Milano|Via San Bernardino, 4": {
+  "istat": "015146",
+  "precisione": "civico",
+  "pt": [
+   45.462324,
+   9.196633
+  ],
+  "riscontro": "VIA SAN BERNARDINO 4"
+ },
+ "Lombardia|Milano|Milano|Via Verona, 9": {
+  "istat": "015146",
+  "precisione": "civico",
+  "pt": [
+   45.449779,
+   9.203715
+  ],
+  "riscontro": "VIA VERONA 9"
+ },
+ "Lombardia|Milano|Milano|Via della Commenda, 12": {
+  "istat": "015146",
+  "precisione": "civico",
+  "pt": [
+   45.45876,
+   9.198643
+  ],
+  "riscontro": "VIA DELLA COMMENDA 12"
+ },
+ "Lombardia|Milano|Milano|Viale Marotta, 8": {
+  "istat": "015146",
+  "precisione": "civico",
+  "pt": [
+   45.498956,
+   9.253572
+  ],
+  "riscontro": "VIALE GIUSEPPE MAROTTA 8"
+ },
+ "Lombardia|Milano|Pieve Emanuele|Via dei Pini, 8": {
+  "istat": "015173",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.3431641,
+   9.1910448
+  ],
+  "riscontro": "OpenStreetMap: Via dei Pini, 8, Pieve Emanuele"
+ },
+ "Lombardia|Milano|Rho, Bollate|Via Meda, 20": {
+  "istat": "015182",
+  "precisione": "civico",
+  "pt": [
+   45.526559,
+   9.041604
+  ],
+  "riscontro": "VIALE FILIPPO MEDA 20"
+ },
+ "Lombardia|Milano|San Donato Milanese, Peschiera Borromeo|Via Unica Bolgiano, 16": {
+  "istat": "015192",
+  "precisione": "civico",
+  "pt": [
+   45.420811,
+   9.277287
+  ],
+  "riscontro": "VIA UNICA BOLGIANO 16"
+ },
+ "Lombardia|Monza e della Brianza|Desio|Via Garibaldi, 46": {
+  "istat": "108023",
+  "precisione": "civico",
+  "pt": [
+   45.61541,
+   9.20636
+  ],
+  "riscontro": "VIA GIUSEPPE GARIBALDI 46"
+ },
+ "Lombardia|Monza e della Brianza|Lissone|Via Como 57": {
+  "istat": "108028",
+  "precisione": "via",
+  "pt": [
+   45.617077,
+   9.23634
+  ],
+  "riscontro": "VIA COMO (civico più vicino: 58)"
+ },
+ "Lombardia|Monza e della Brianza|Monza|Via Enrico Tazzoli, 6": {
+  "istat": "108033",
+  "precisione": "via",
+  "pt": [
+   45.569778,
+   9.241909
+  ],
+  "riscontro": "VIA ENRICO TAZZOLI (civico più vicino: 5)"
+ },
+ "Lombardia|Monza e della Brianza|Monza|Via Mentana, 43": {
+  "istat": "108033",
+  "precisione": "civico",
+  "pt": [
+   45.577814,
+   9.28208
+  ],
+  "riscontro": "VIA MENTANA 43"
+ },
+ "Lombardia|Monza e della Brianza|Seregno|Via Oliveti, 17": {
+  "istat": "108039",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.6457242,
+   9.2128158
+  ],
+  "riscontro": "OpenStreetMap: Via Oliveti, 17, Seregno"
+ },
+ "Lombardia|Monza e della Brianza|Vimercate|Largo Pontida 16": {
+  "istat": "108050",
+  "precisione": "civico",
+  "pt": [
+   45.616149,
+   9.370465
+  ],
+  "riscontro": "LARGO PONTIDA 16"
+ },
+ "Lombardia|Pavia|Pavia|Corso Garibaldi, 69": {
+  "istat": "018110",
+  "precisione": "civico",
+  "pt": [
+   45.181276,
+   9.164056
+  ],
+  "riscontro": "CORSO GIUSEPPE GARIBALDI 69"
+ },
+ "Lombardia|Pavia|Vigevano|C.so Torino, 36 B": {
+  "istat": "018177",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.2968012,
+   8.8243156
+  ],
+  "riscontro": "OpenStreetMap: C.so Torino, 36 B, Vigevano"
+ },
+ "Lombardia|Pavia|Voghera|Via Martinelli, 4": {
+  "istat": "018182",
+  "precisione": "civico",
+  "pt": [
+   44.990541,
+   9.007933
+  ],
+  "riscontro": "VIA LUCIO MARTINELLI 4"
+ },
+ "Lombardia|Sondrio|Ardenno|Via Garibaldi 64": {
+  "istat": "014005",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   46.1649529,
+   9.6320756
+  ],
+  "riscontro": "OpenStreetMap: Via Garibaldi 64, Ardenno"
+ },
+ "Lombardia|Sondrio|Sondrio|Via Fracaiolo, 3": {
+  "istat": "014061",
+  "precisione": "civico",
+  "pt": [
+   46.174139,
+   9.869782
+  ],
+  "riscontro": "VIA FRACCAIOLO 3"
+ },
+ "Lombardia|Varese|Busto Arsizio|Via Matteotti, 14": {
+  "istat": "012026",
+  "precisione": "civico",
+  "pt": [
+   45.612168,
+   8.848199
+  ],
+  "riscontro": "VIA GIACOMO MATTEOTTI 14"
+ },
+ "Lombardia|Varese|Gallarate|via Magenta, 3 (presso sede Polizia Locale)": {
+  "istat": "012070",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.6559257,
+   8.7945083
+  ],
+  "riscontro": "OpenStreetMap: via Magenta, 3, Gallarate"
+ },
+ "Lombardia|Varese|Marnate|Via Italia, 151": {
+  "istat": "012098",
+  "precisione": "civico",
+  "pt": [
+   45.62855,
+   8.899455
+  ],
+  "riscontro": "VIA ITALIA 151"
+ },
+ "Lombardia|Varese|Saronno|Via Marana": {
+  "istat": "012119",
+  "precisione": "comune",
+  "pt": [
+   45.62755,
+   9.0376
+  ],
+  "riscontro": null
+ },
+ "Lombardia|Varese|Varese, Travedona Monate, Luino, Sesto Calende|Via Mazzini 149": {
+  "istat": "012133",
+  "precisione": "via",
+  "pt": [
+   45.817135,
+   8.829925
+  ],
+  "riscontro": "VIA GIUSEPPE MAZZINI (civico più vicino: 15)"
+ },
+ "Lombardia|Varese|Varese|Piazza Biroldi, 21 presso la Casa della nutrice": {
+  "istat": "012133",
+  "precisione": "via",
+  "pt": [
+   45.814816,
+   8.834818
+  ],
+  "riscontro": "PIAZZA BIROLDI (civico più vicino: 20)"
+ },
+ "Lombardia|Varese|Varese|Via C. Robbioni 14": {
+  "istat": "012133",
+  "precisione": "civico",
+  "pt": [
+   45.819946,
+   8.824595
+  ],
+  "riscontro": "VIA CARLO ROBBIONI 14"
+ },
+ "Marche|Ancona|Ancona|Via Sinigallia, 16": {
+  "istat": "042002",
+  "precisione": "civico",
+  "pt": [
+   43.602963,
+   13.504706
+  ],
+  "riscontro": "VIA SENIGALLIA 16"
+ },
+ "Marche|Ascoli Piceno|Ascoli Piceno, San Benedetto del Tronto, Spinetoli, Comunanza|(Grottamare)b Via Marconi 50; (Ascoli Piceno) Viale Marcello Federici c/o Consultorio familiare stanza 2 Palazzina ex GIL oppure c/o Casa Albergo Ferrucci, Via San Serafino da Montegranaro 20; (San Benedetto del Tronto) c/o Consultorio Familiare, Ospedale Civile Palazzina F, Via Manara 7; (Spinetoli) c/o Spazio Abilita, Via 1° Maggio, 147": {
+  "istat": "044023",
+  "precisione": "civico",
+  "pt": [
+   42.989002,
+   13.868234
+  ],
+  "riscontro": "VIA GUGLIELMO MARCONI 50"
+ },
+ "Marche|Fermo|Sant'Elpidio a Mare, Pedaso, Fermo, Comunanza, Porto Sant'Elpidio, Montegiorgio|(Fermo) Piazzale Azzolino, 18; (Pedaso) Via Spontini, 18; (Sant'Elpidio a Mare) Piazzale Marconi, 14; (Comunanza) Via G. Bruno, 1; (Porto Sant'Elpidio) Via S. Giovanni Bosco, 8 (Montegiorgio) Via Dante Mattii, 12": {
+  "istat": "109006",
+  "precisione": "civico",
+  "pt": [
+   43.16254,
+   13.717135
+  ],
+  "riscontro": "PIAZZALE AZZOLINO 18"
+ },
+ "Marche|Macerata|Macerata, Civitanova Marche, Castel Raimondo, Porto Recanati, Tolentino e Sarnano|Piazza Mazzini,36": {
+  "istat": "043023",
+  "precisione": "civico",
+  "pt": [
+   43.298947,
+   13.454441
+  ],
+  "riscontro": "PIAZZA GIUSEPPE MAZZINI 36"
+ },
+ "Marche|Pesaro e Urbino|Pesaro, Urbino, Cagli|(Pesaro) Via Diaz, 10; (Cagli) Via Lapis, 10; (Urbino) Via Sasso, 122": {
+  "istat": "041044",
+  "precisione": "civico",
+  "pt": [
+   43.908937,
+   12.913705
+  ],
+  "riscontro": "VIA ARMANDO DIAZ 10"
+ },
+ "Molise|Campobasso|Campobasso|Via Conterosso, 21A": {
+  "istat": "070006",
+  "precisione": "civico",
+  "pt": [
+   41.549641,
+   14.659604
+  ],
+  "riscontro": "VIA CONTE ROSSO 21"
+ },
+ "Molise|Campobasso|Termoli|": {
+  "istat": "070078",
+  "precisione": "comune",
+  "pt": [
+   41.97373,
+   14.95884
+  ],
+  "riscontro": null
+ },
+ "Molise|Isernia|Isernia|": {
+  "istat": "094023",
+  "precisione": "comune",
+  "pt": [
+   41.61115,
+   14.21931
+  ],
+  "riscontro": null
+ },
+ "Piemonte|Alessandria|Alessandria- Casale Monferrato|(Alessandria) Via Guasco, 47; (Casale Monferrato) Via Magnocavallo, 11": {
+  "istat": "006003",
+  "precisione": "civico",
+  "pt": [
+   44.916251,
+   8.616873
+  ],
+  "riscontro": "VIA DEI GUASCO 47"
+ },
+ "Piemonte|Asti|Asti, Monastero Bormida|Via Ugo Foscolo, 7": {
+  "istat": "005005",
+  "precisione": "civico",
+  "pt": [
+   44.911974,
+   8.203534
+  ],
+  "riscontro": "VIA UGO FOSCOLO 7"
+ },
+ "Piemonte|Biella|Biella|Via Caraccio, 4": {
+  "istat": "096004",
+  "precisione": "civico",
+  "pt": [
+   45.565753,
+   8.058917
+  ],
+  "riscontro": "VIA RODOLFO CARACCIO 4"
+ },
+ "Piemonte|Cuneo|Bra, Alba|Via Gianolio, 22": {
+  "istat": "004029",
+  "precisione": "civico",
+  "pt": [
+   44.696725,
+   7.854622
+  ],
+  "riscontro": "VIA BARTOLOMEO GIANOLIO 22"
+ },
+ "Piemonte|Cuneo|Ceva Località San Bernardino, Mombasiglio, Priola, Niella Tanaro|(Ceva San Bernardino) Via Case Rosse, 1; (Mombasiglio) presso il Municipio; (Niella Tanaro) presso il Municipio; (Priola) presso ex scuole elementari di Pivetta": {
+  "istat": "004066",
+  "precisione": "civico",
+  "pt": [
+   44.37755,
+   8.041778
+  ],
+  "riscontro": "VIA CASE ROSSE 1"
+ },
+ "Piemonte|Cuneo|Cuneo, Dronero, Fossano, Mondovì, Savigliano, Salluzzo|Via Rocca De Baldi, 7": {
+  "istat": "004078",
+  "precisione": "civico",
+  "pt": [
+   44.39051,
+   7.56694
+  ],
+  "riscontro": "VIA ROCCA DE' BALDI 7"
+ },
+ "Piemonte|Novara|Borgomanero|Via Arona, 12": {
+  "istat": "003024",
+  "precisione": "civico",
+  "pt": [
+   45.701231,
+   8.466431
+  ],
+  "riscontro": "VIA ARONA 12"
+ },
+ "Piemonte|Novara|Novara|Via Bottini, 8": {
+  "istat": "003106",
+  "precisione": "civico",
+  "pt": [
+   45.450697,
+   8.616331
+  ],
+  "riscontro": "VIA ENRICO BOTTINI 8"
+ },
+ "Piemonte|Torino|Chieri, Carmagnola, Pino Torinese, Santena, Poirino|Via Vittorio Emanuele II, 1 (Centro Antiviolenza) Via Savonarola, 2 c/o Associazione Karmadonne (Sportello a Carmagnola) Via San Felice, 2 (Sportello a Pino Torinese) Via Marta Tana c/o Farmacia Cavour (Sportello a Santena) Via Indipendenza, 48 c/o Casa delle Donne (Sportello a Poirino)": {
+  "istat": "001078",
+  "precisione": "civico",
+  "pt": [
+   45.014822,
+   7.819279
+  ],
+  "riscontro": "VIA VITTORIO EMANUELE SECONDO 1"
+ },
+ "Piemonte|Torino|Chivasso, Rivarolo, Mathi|Vicolo Cavalcavia, 11 (Centro antiviolenza) Via Rocco Meaglia, 6 (Sportello a Rivarolo) Via Santa Lucia, 92 c/o Sede CRI (Sportello a Mathi)": {
+  "istat": "001082",
+  "precisione": "civico",
+  "pt": [
+   45.193241,
+   7.894115
+  ],
+  "riscontro": "VICOLO CAVALCAVIA 11"
+ },
+ "Piemonte|Torino|Collegno, Grugliasco, Alpignano, Pianezza, Moncalieri, Trofanello|Via Torino 9/6 (Centro antiviolenza) Via Fratel Prospero 41 (Sportello a Grugliasco) Via Boneschi, 26 c/o Movicentro (Sportello ad Alpignano) Via Santa Maria, 27bis c/o polifunzionale P.G. Ferrero - ingresso via Fornelli (Sportello a Moncalieri) Piazza Leumann, 1 - ingresso via Rosmini (Sportello a Pianezza) Via Umberto I, 126 Valle Sauglio (Sportello a Trofanello)": {
+  "istat": "001090",
+  "precisione": "civico",
+  "pt": [
+   45.079667,
+   7.579692
+  ],
+  "riscontro": "VIA TORINO 9"
+ },
+ "Piemonte|Torino|Pinerolo, Rivoli, Orbassano|Stradale Fenestrelle n.1": {
+  "istat": "001191",
+  "precisione": "civico",
+  "pt": [
+   44.885467,
+   7.320891
+  ],
+  "riscontro": "STRADA FENESTRELLE 1"
+ },
+ "Piemonte|Torino|Settimo Torinese, San Mauro Torinese|Via Gen. Dalla Chiesa, 21 (Centro antiviolenza) Via dell'asilo, 11 (Sportello a San Mauro Torinese)": {
+  "istat": "001265",
+  "precisione": "civico",
+  "pt": [
+   45.136286,
+   7.774942
+  ],
+  "riscontro": "VIA GENERALE CARLO ALBERTO DALLA CHIESA 21"
+ },
+ "Piemonte|Torino|Torino, Amaltea|Via Vanchiglia, 6 (Centro antiviolenza) Via Parma, 71bis (Sportello \"Amaltea\")": {
+  "istat": "001272",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.0664584,
+   7.6967898
+  ],
+  "riscontro": "OpenStreetMap: Via Vanchiglia, 6, Torino"
+ },
+ "Piemonte|Torino|Torino|Via Assietta, 13/A": {
+  "istat": "001272",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.0625163,
+   7.6743314
+  ],
+  "riscontro": "OpenStreetMap: Via Assietta, 13/A, Torino"
+ },
+ "Piemonte|Torino|Torino|Via G. Passalacqua, 6B": {
+  "istat": "001272",
+  "precisione": "comune",
+  "pt": [
+   45.07349,
+   7.67561
+  ],
+  "riscontro": null
+ },
+ "Piemonte|Torino|Torino|Via S. Marino 22 A/ Corso Unione Sovietica 228 D": {
+  "istat": "001272",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.0406362,
+   7.6367894
+  ],
+  "riscontro": "OpenStreetMap: Via S. Marino 22 A, Torino"
+ },
+ "Piemonte|Verbano-Cusio-Ossola|Domodossola|Via Mizzoccola, 28 (Centro antiviolenza Domodossola) Via Scapaccino, 47 (Sportello a Domodossola) Via dell'Artigianato, 13 (Sportello a Domodossola) Frazione Crino, 50 (Sportello a Baceno) Via Marcono, 61 (Sportello a Santa Maria Maggiore) Via Fabbri, 33 (Sportello a Villadossola) Via Giovanni Battista (Sportello a Vanzone) Via Sempione, 72 c/o Casa della salute (Sportello a Crevoladossola) Via Realini, 36 (Sportello a Gravellona Toce) Piazza della chiesa (Sportello a Casale Corte Cerro) Via Mazzini, 96 (Sportello a Omegna) Via Roma, 54 (Sportello a Valstrona) Viale Sant'Anna, 83 (Sportello a Verbania) Piazzale Pertini, 1 (Sportello a Vignone) Piazza Municipio, 8 (Sportello a San Bernardino) Via Roma, 9 (Sportello a Premeno) Corso Belvedere, 92 (Sportello a Ghiffa) Piazza Municipio, 14 (Sportello a Cannero) Via Nazionale (Sportello a Vogogna) Via XVII Martiri, 33 (Sportello a Baveno) Via Cigala Fulgosi (Sportello a Stresa) Via per Unchio, 13 (Sportello a Cambiasca) Via Zaccheo, 8 (Sportello a Cannobio) Via Pallanza, 2 (Sportello a Mergozzo) Via Cavour, 2 (Sportello ad Armeno) Via Maestri Boccan, 12 (Sportello a Premosello-Chiovenda) Piazza del Municipio, 10 (Sportello a Ornavasso) Via Massari, 2 (Sportello a Pieve Vegonte) via Circonvallazione (Sportello a Quarna Sopra)": {
+  "istat": "103028",
+  "precisione": "via",
+  "pt": [
+   46.112336,
+   8.302178
+  ],
+  "riscontro": "VIA MIZZOCCOLA (civico più vicino: 32)"
+ },
+ "Piemonte|Vercelli|Santhià, Gattinara, Varallo, Borgosesia|Via E. De Amici, 45 (Centro antiviolenza) Via Marconi, 80 (Sportello a Gattinara) Corso Roma, 35 (Sportello a Varallo) Via Bocciolone, 4 (Sportello a Borgosesia)": {
+  "istat": "002133",
+  "precisione": "comune",
+  "pt": [
+   45.38652,
+   8.19814
+  ],
+  "riscontro": null
+ },
+ "Piemonte|Vercelli|Vercelli|Via Fratelli Garrone, 12": {
+  "istat": "002158",
+  "precisione": "civico",
+  "pt": [
+   45.323808,
+   8.420968
+  ],
+  "riscontro": "VIA FRATELLI GARRONE 12"
+ },
+ "Puglia|Bari|Altamura|Via Filippo Baldassarra, 7": {
+  "istat": "072004",
+  "precisione": "civico",
+  "pt": [
+   40.832054,
+   16.552445
+  ],
+  "riscontro": "VIA FILIPPO BALDASSARRA 7"
+ },
+ "Puglia|Bari|Bari|Strada S. Giorgio n. 21": {
+  "istat": "072006",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   41.1134432,
+   16.844398
+  ],
+  "riscontro": "OpenStreetMap: Strada S. Giorgio 21, Bari"
+ },
+ "Puglia|Bari|Bari|Via Napoli, 308": {
+  "istat": "072006",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   41.1291246,
+   16.834773
+  ],
+  "riscontro": "OpenStreetMap: Via Napoli, 308, Bari"
+ },
+ "Puglia|Bari|Bitonto, Palo del Colle, Mariotto|Via Monsignor Calamita, 18": {
+  "istat": "072011",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   41.1089453,
+   16.6943793
+  ],
+  "riscontro": "OpenStreetMap: Via Monsignor Calamita, 18, Bitonto"
+ },
+ "Puglia|Bari|Bitonto|Via Abate Fornari, 27": {
+  "istat": "072011",
+  "precisione": "comune",
+  "pt": [
+   41.04929,
+   16.61466
+  ],
+  "riscontro": null
+ },
+ "Puglia|Bari|Conversano, Polignano a Mare, Monopoli|Via Guido Reni, 27": {
+  "istat": "072019",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   40.9641453,
+   17.1147123
+  ],
+  "riscontro": "OpenStreetMap: Via Guido Reni, 27, Conversano"
+ },
+ "Puglia|Bari|Gioia del Colle, Turi, San Michele di Bari, Casamassima|Via Aldo Moro angolo via Einaudi": {
+  "istat": "072021",
+  "precisione": "via",
+  "pt": [
+   40.79796,
+   16.930212
+  ],
+  "riscontro": "VIA ALDO MORO"
+ },
+ "Puglia|Bari|Molfetta, Giovinazzo|Piazza Rosa Luxemburg, 29": {
+  "istat": "072029",
+  "precisione": "comune",
+  "pt": [
+   41.18331,
+   16.57414
+  ],
+  "riscontro": null
+ },
+ "Puglia|Bari|Noci|Vico Silvio Pellico": {
+  "istat": "072031",
+  "precisione": "comune",
+  "pt": [
+   40.76354,
+   17.10241
+  ],
+  "riscontro": null
+ },
+ "Puglia|Bari|Polignano a Mare|Via Don Luigi Sturzo nc": {
+  "istat": "072035",
+  "precisione": "via",
+  "pt": [
+   40.992427,
+   17.226703
+  ],
+  "riscontro": "VIA DON LUIGI STURZO"
+ },
+ "Puglia|Bari|Triggiano (Capurso)|Via Torricella, Palazzo Venisti - Capurso": {
+  "istat": "072014",
+  "precisione": "via",
+  "pt": [
+   41.048526,
+   16.920751
+  ],
+  "riscontro": "VIA DOMENICO TORRICELLA"
+ },
+ "Puglia|Barletta-Andria-Trani|Andria, Canosa, Spinazzola, Minervino Murge|Via Don Luigi Sturzo, 46": {
+  "istat": "110001",
+  "precisione": "civico",
+  "pt": [
+   41.226148,
+   16.303554
+  ],
+  "riscontro": "VIALE DON LUIGI STURZO 46"
+ },
+ "Puglia|Barletta-Andria-Trani|Barletta|Piazza Aldo Moro, 16; Via F. D’Aragona, 143": {
+  "istat": "110002",
+  "precisione": "civico",
+  "pt": [
+   41.319202,
+   16.278679
+  ],
+  "riscontro": "PIAZZA ALDO MORO 16"
+ },
+ "Puglia|Barletta-Andria-Trani|Trani|Via G. di Vittorio, 60": {
+  "istat": "110009",
+  "precisione": "comune",
+  "pt": [
+   41.23356,
+   16.39726
+  ],
+  "riscontro": null
+ },
+ "Puglia|Brindisi|Brindisi|Via Giulio Cesare 22/t angolo via cocceio nerva": {
+  "istat": "074001",
+  "precisione": "civico",
+  "pt": [
+   40.633646,
+   17.935831
+  ],
+  "riscontro": "VIA GIULIO CESARE 22"
+ },
+ "Puglia|Brindisi|Brindisi|Via Tor Pisana 98": {
+  "istat": "074001",
+  "precisione": "civico",
+  "pt": [
+   40.631287,
+   17.940314
+  ],
+  "riscontro": "VIA TOR PISANA 98"
+ },
+ "Puglia|Brindisi|Mesagne|Piazza Bartolo Longo, 17": {
+  "istat": "074010",
+  "precisione": "via",
+  "pt": [
+   40.570145,
+   17.794406
+  ],
+  "riscontro": "VIA BEATO BARTOLO LONGO (civico più vicino: 0)"
+ },
+ "Puglia|Foggia|Cerignola|Via Recanati, 52": {
+  "istat": "071020",
+  "precisione": "civico",
+  "pt": [
+   41.26806,
+   15.890991
+  ],
+  "riscontro": "VIA RECANATI 52"
+ },
+ "Puglia|Foggia|Foggia|Via Bagnante, 16": {
+  "istat": "071024",
+  "precisione": "civico",
+  "pt": [
+   41.462513,
+   15.550608
+  ],
+  "riscontro": "VIA BAGNANTE 16"
+ },
+ "Puglia|Foggia|Foggia|Via Matteotti, 128": {
+  "istat": "071024",
+  "precisione": "civico",
+  "pt": [
+   41.458663,
+   15.547881
+  ],
+  "riscontro": "VIA GIACOMO MATTEOTTI 128"
+ },
+ "Puglia|Foggia|Manfredonia|Via San Lorenzo, 47": {
+  "istat": "071029",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   41.6313019,
+   15.9203884
+  ],
+  "riscontro": "OpenStreetMap: Via San Lorenzo, 47, Manfredonia"
+ },
+ "Puglia|Foggia|San Severo|Via Palmiro Togliatti, 36": {
+  "istat": "071051",
+  "precisione": "civico",
+  "pt": [
+   41.693917,
+   15.376488
+  ],
+  "riscontro": "VIA PALMIRO TOGLIATTI 36"
+ },
+ "Puglia|Lecce|Casarano|Via Padre Stomeo, snc": {
+  "istat": "075016",
+  "precisione": "comune",
+  "pt": [
+   40.02203,
+   18.17169
+  ],
+  "riscontro": null
+ },
+ "Puglia|Lecce|Galatina|Via Montegrappa, 8": {
+  "istat": "075029",
+  "precisione": "civico",
+  "pt": [
+   40.171173,
+   18.173736
+  ],
+  "riscontro": "VIA MONTE GRAPPA 8"
+ },
+ "Puglia|Lecce|Lecce|Via Santa Maria del Paradiso 12": {
+  "istat": "075035",
+  "precisione": "civico",
+  "pt": [
+   40.351128,
+   18.165564
+  ],
+  "riscontro": "VIA SANTA MARIA DEL PARADISO 12"
+ },
+ "Puglia|Taranto|Martina Franca|Viale Della Libertà 29": {
+  "istat": "073013",
+  "precisione": "civico",
+  "pt": [
+   40.701728,
+   17.336974
+  ],
+  "riscontro": "VIALE DELLA LIBERTA` 29"
+ },
+ "Puglia|Taranto|Taranto|Via Cagliari angolo via Dante, 221/b asl ta": {
+  "istat": "073027",
+  "precisione": "via",
+  "pt": [
+   40.462704,
+   17.264183
+  ],
+  "riscontro": "VIA CAGLIARI"
+ },
+ "Sardegna|Cagliari|Cagliari|Via Cimarosa, 7": {
+  "istat": "118006",
+  "precisione": "civico",
+  "pt": [
+   39.21804,
+   9.12557
+  ],
+  "riscontro": "VIA DOMENICO CIMAROSA 7"
+ },
+ "Sardegna|Cagliari|Cagliari|Viale Merello, 87/a": {
+  "istat": "118006",
+  "precisione": "civico",
+  "pt": [
+   39.22725,
+   9.1097
+  ],
+  "riscontro": "VIALE LUIGI MERELLO 87"
+ },
+ "Sardegna|Gallura Nord-Est Sardegna|Tempio Pausania|Via Francesco II n°15": {
+  "istat": "113025",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   40.9016998,
+   9.1072742
+  ],
+  "riscontro": "OpenStreetMap: Via Francesco II n°15, Tempio Pausania"
+ },
+ "Sardegna|Nuoro|Macomer|via Sebastiano Satta": {
+  "istat": "114023",
+  "precisione": "via",
+  "pt": [
+   40.266076,
+   8.776782
+  ],
+  "riscontro": "VIA SEBASTIANO SATTA"
+ },
+ "Sardegna|Nuoro|Nuoro|Via Roma, 95": {
+  "istat": "114027",
+  "precisione": "via",
+  "pt": [
+   40.32314,
+   9.33333
+  ],
+  "riscontro": "VIA ROMA (civico più vicino: 94)"
+ },
+ "Sardegna|Nuoro|Nuoro|Via Sassari, 49": {
+  "istat": "114027",
+  "precisione": "civico",
+  "pt": [
+   40.32319,
+   9.33742
+  ],
+  "riscontro": "VIA SASSARI 49"
+ },
+ "Sardegna|Nuoro|Tortolì|Corso Vittorio Emanuele II,23": {
+  "istat": "116017",
+  "precisione": "comune",
+  "pt": [
+   39.91281,
+   9.66672
+  ],
+  "riscontro": null
+ },
+ "Sardegna|Oristano|Oristano|Via Tirso, 8": {
+  "istat": "115045",
+  "precisione": "civico",
+  "pt": [
+   39.906271,
+   8.591173
+  ],
+  "riscontro": "VIA TIRSO 8"
+ },
+ "Sardegna|Sassari|Olbia|Via delle Salicornie, 5": {
+  "istat": "113017",
+  "precisione": "civico",
+  "pt": [
+   40.919612,
+   9.486732
+  ],
+  "riscontro": "VIA DELLE SALICORNIE 5"
+ },
+ "Sardegna|Sassari|Ozieri|Via Mercato, 11": {
+  "istat": "112040",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   40.5834458,
+   9.002763
+  ],
+  "riscontro": "OpenStreetMap: Via Mercato, 11, Ozieri"
+ },
+ "Sardegna|Sassari|San Teodoro|": {
+  "istat": "113021",
+  "precisione": "comune",
+  "pt": [
+   40.78367,
+   9.6531
+  ],
+  "riscontro": null
+ },
+ "Sardegna|Sassari|Sassari|Via dei Mille, 61": {
+  "istat": "112050",
+  "precisione": "civico",
+  "pt": [
+   40.718284,
+   8.556843
+  ],
+  "riscontro": "VIA DEI MILLE 61"
+ },
+ "Sardegna|Sud Sardegna|Carbonia-Iglesias|Via Porceddu 12": {
+  "istat": "119003",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   39.1588148,
+   8.5405945
+  ],
+  "riscontro": "OpenStreetMap: Via Porceddu 12, Carbonia"
+ },
+ "Sardegna|Sud Sardegna|San Gavino|": {
+  "istat": "117014",
+  "precisione": "comune",
+  "pt": [
+   39.55097,
+   8.78112
+  ],
+  "riscontro": null
+ },
+ "Sardegna|Sud Sardegna|Sanluri|": {
+  "istat": "117015",
+  "precisione": "comune",
+  "pt": [
+   39.5451,
+   8.87902
+  ],
+  "riscontro": null
+ },
+ "Sicilia|Agrigento|Agrigento|Salita Francesco Sala, 15": {
+  "istat": "084001",
+  "precisione": "civico",
+  "pt": [
+   37.311757,
+   13.582659
+  ],
+  "riscontro": "SALITA FRANCESCO SALA 15"
+ },
+ "Sicilia|Agrigento|Favara|Via Cappello, 27": {
+  "istat": "084017",
+  "precisione": "civico",
+  "pt": [
+   37.319156,
+   13.66084
+  ],
+  "riscontro": "VIA CAPPELLO 27"
+ },
+ "Sicilia|Catania|Acireale|Via Galatea, 224": {
+  "istat": "087004",
+  "precisione": "civico",
+  "pt": [
+   37.613973,
+   15.167811
+  ],
+  "riscontro": "VIA GALATEA 224"
+ },
+ "Sicilia|Catania|Bronte|Viale Duca Amedeo D'aosta, 27": {
+  "istat": "087009",
+  "precisione": "via",
+  "pt": [
+   37.792906,
+   14.830791
+  ],
+  "riscontro": "VIALE AMEDEO DUCA D'AOSTA (civico più vicino: 28)"
+ },
+ "Sicilia|Catania|Caltagirone|Via Giacomo Matteotti, 34": {
+  "istat": "087011",
+  "precisione": "via",
+  "pt": [
+   37.22613,
+   14.51747
+  ],
+  "riscontro": "VIA GIACOMO MATTEOTTI (civico più vicino: 24)"
+ },
+ "Sicilia|Catania|Caltagirone|Via Grazia 41, 49": {
+  "istat": "087011",
+  "precisione": "civico",
+  "pt": [
+   37.23895,
+   14.51462
+  ],
+  "riscontro": "VIA GRAZIA 41"
+ },
+ "Sicilia|Catania|Catania|Via G. Macherione, 14": {
+  "istat": "087015",
+  "precisione": "civico",
+  "pt": [
+   37.519781,
+   15.10177
+  ],
+  "riscontro": "VIA GIUSEPPE MACHERIONE 14"
+ },
+ "Sicilia|Enna|Piazza Armerina|Contrada Bellia": {
+  "istat": "086014",
+  "precisione": "comune",
+  "pt": [
+   37.40484,
+   14.35254
+  ],
+  "riscontro": null
+ },
+ "Sicilia|Messina|Capo D'orlando|Via Tripoli, 17": {
+  "istat": "083009",
+  "precisione": "civico",
+  "pt": [
+   38.161322,
+   14.744726
+  ],
+  "riscontro": "VIA TRIPOLI 17"
+ },
+ "Sicilia|Messina|Furci Siculo|Via Antonio Spinelli snc": {
+  "istat": "083027",
+  "precisione": "via",
+  "pt": [
+   37.963403,
+   15.381977
+  ],
+  "riscontro": "VIA ANTONINO SPINELLI"
+ },
+ "Sicilia|Messina|Gaggi|Via Villamena, 18": {
+  "istat": "083029",
+  "precisione": "civico",
+  "pt": [
+   37.860307,
+   15.222174
+  ],
+  "riscontro": "VIA VILLAMENA 18"
+ },
+ "Sicilia|Messina|Messina|Via G.A. Cesario, 24": {
+  "istat": "083048",
+  "precisione": "comune",
+  "pt": [
+   38.17805,
+   15.53069
+  ],
+  "riscontro": null
+ },
+ "Sicilia|Messina|Messina|Via Giovanni Pascoli, 21": {
+  "istat": "083048",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   38.1900196,
+   15.5470858
+  ],
+  "riscontro": "OpenStreetMap: Via Giovanni Pascoli, 21, Messina"
+ },
+ "Sicilia|Messina|San Piero Patti - Piraino|Via Sant'Anna, 44 (San Piero Patti)": {
+  "istat": "083081",
+  "precisione": "civico",
+  "pt": [
+   38.051862,
+   14.966849
+  ],
+  "riscontro": "VIA SANT'ANNA 44"
+ },
+ "Sicilia|Messina|Sant'Agata di Militello|Via Medici, 252": {
+  "istat": "083084",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   38.069583,
+   14.6413094
+  ],
+  "riscontro": "OpenStreetMap: Via Medici, 252, Sant'Agata di Militello"
+ },
+ "Sicilia|Messina|Villa Franca Tirrena|Via Quasimodo snc": {
+  "istat": "083105",
+  "precisione": "via",
+  "pt": [
+   38.237701,
+   15.434761
+  ],
+  "riscontro": "VIA SALVATORE QUASIMODO"
+ },
+ "Sicilia|Palermo|Bagheria|Via Capitano Luigi Giorgi, 3": {
+  "istat": "082006",
+  "precisione": "via",
+  "pt": [
+   38.081891,
+   13.501015
+  ],
+  "riscontro": "VIA CAPITANO LUIGI GIORGI (civico più vicino: 2)"
+ },
+ "Sicilia|Palermo|Bagheria|Via Caputo, 66": {
+  "istat": "082006",
+  "precisione": "civico",
+  "pt": [
+   38.083255,
+   13.503623
+  ],
+  "riscontro": "VIA CAPUTO 66"
+ },
+ "Sicilia|Palermo|Casteldaccia|Via Ugo la Malfa,65": {
+  "istat": "082023",
+  "precisione": "civico",
+  "pt": [
+   38.04286,
+   13.51948
+  ],
+  "riscontro": "VIA UGO LA MALFA 65"
+ },
+ "Sicilia|Palermo|Ficarazzi|Via Piersanti Mattarella, 58": {
+  "istat": "082035",
+  "precisione": "civico",
+  "pt": [
+   38.089535,
+   13.4665
+  ],
+  "riscontro": "VIA PIERSANTI MATTARELLA 58"
+ },
+ "Sicilia|Palermo|Palermo|Via Ammiraglio Persano, 46": {
+  "istat": "082053",
+  "precisione": "civico",
+  "pt": [
+   38.141563,
+   13.359015
+  ],
+  "riscontro": "VIA AMMIRAGLIO PERSANO 46"
+ },
+ "Sicilia|Palermo|Palermo|Via Antonio De Gregorio, 15": {
+  "istat": "082053",
+  "precisione": "civico",
+  "pt": [
+   38.135475,
+   13.354996
+  ],
+  "riscontro": "VIA ANTONIO DE GREGORIO 15"
+ },
+ "Sicilia|Palermo|Palermo|Via S.Ciro, 6": {
+  "istat": "082053",
+  "precisione": "civico",
+  "pt": [
+   38.095062,
+   13.38343
+  ],
+  "riscontro": "VIA SAN CIRO 6"
+ },
+ "Sicilia|Palermo|Palermo|Viale Campania, 25": {
+  "istat": "082053",
+  "precisione": "civico",
+  "pt": [
+   38.14515,
+   13.339219
+  ],
+  "riscontro": "VIALE CAMPANIA 25"
+ },
+ "Sicilia|Palermo|San Giuseppe Jato|Via Vittorio Emanuele III, 3": {
+  "istat": "082064",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   37.9722717,
+   13.1837277
+  ],
+  "riscontro": "OpenStreetMap: Via Vittorio Emanuele III, 3, San Giuseppe Jato"
+ },
+ "Sicilia|Ragusa|Comiso|Via Libertà, 21": {
+  "istat": "088003",
+  "precisione": "via",
+  "pt": [
+   36.939782,
+   14.603312
+  ],
+  "riscontro": "VIA LIBERTA' (civico più vicino: 26)"
+ },
+ "Sicilia|Ragusa|Ragusa|Via Taormina, 1": {
+  "istat": "088009",
+  "precisione": "civico",
+  "pt": [
+   36.915312,
+   14.72674
+  ],
+  "riscontro": "VIA TAORMINA 1"
+ },
+ "Sicilia|Ragusa|Vittoria|Via Pier Paolo Pasolini": {
+  "istat": "088012",
+  "precisione": "via",
+  "pt": [
+   36.957478,
+   14.541168
+  ],
+  "riscontro": "VIA PIER PAOLO PASOLINI"
+ },
+ "Sicilia|Siracusa|Avola|Via Mazzini, 42": {
+  "istat": "089002",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   36.9087723,
+   15.1352706
+  ],
+  "riscontro": "OpenStreetMap: Via Mazzini, 42, Avola"
+ },
+ "Sicilia|Siracusa|Floridia|Via Papa Paolo VI, 67": {
+  "istat": "089009",
+  "precisione": "civico",
+  "pt": [
+   37.087888,
+   15.159747
+  ],
+  "riscontro": "VIALE PAPA PAOLO SESTO 67"
+ },
+ "Sicilia|Siracusa|Lentini|Via Catania 96/98": {
+  "istat": "089011",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   37.2872205,
+   15.0013428
+  ],
+  "riscontro": "OpenStreetMap: Via Catania 96/98, Lentini"
+ },
+ "Sicilia|Siracusa|Siracusa|Via Forlanini, 3": {
+  "istat": "089017",
+  "precisione": "civico",
+  "pt": [
+   37.080649,
+   15.274622
+  ],
+  "riscontro": "VIA CARLO FORLANINI 3"
+ },
+ "Sicilia|Siracusa|Siracusa|Via Teracati, 156": {
+  "istat": "089017",
+  "precisione": "civico",
+  "pt": [
+   37.082627,
+   15.281124
+  ],
+  "riscontro": "VIALE TERACATI 156"
+ },
+ "Sicilia|Trapani|Alcamo|Via Padre Pino Puglisi, 19": {
+  "istat": "081001",
+  "precisione": "civico",
+  "pt": [
+   37.975214,
+   12.955149
+  ],
+  "riscontro": "VIA PADRE PINO PUGLISI 19"
+ },
+ "Sicilia|Trapani|Trapani|Via XXX Gennaio - presso Palazzo di Giustizia": {
+  "istat": "081021",
+  "precisione": "via",
+  "pt": [
+   38.01651,
+   12.51482
+  ],
+  "riscontro": "VIA TRENTA GENNAIO"
+ },
+ "Toscana|Arezzo|Arezzo|Viale Michelangelo, 8": {
+  "istat": "051002",
+  "precisione": "civico",
+  "pt": [
+   43.460925,
+   11.877113
+  ],
+  "riscontro": "VIALE MICHELANGELO 8"
+ },
+ "Toscana|Firenze|Empoli|Via XX Settembre, 17": {
+  "istat": "048014",
+  "precisione": "civico",
+  "pt": [
+   43.719179,
+   10.951976
+  ],
+  "riscontro": "VIA XX SETTEMBRE 17"
+ },
+ "Toscana|Firenze|Firenze|Via del Mezzetta, 1": {
+  "istat": "048017",
+  "precisione": "civico",
+  "pt": [
+   43.771804,
+   11.298025
+  ],
+  "riscontro": "VIA DEL MEZZETTA 1"
+ },
+ "Toscana|Grosseto|Grosseto, Follonica, Cabalbio, Arcidosso e Manciano|Via Ansedonia, 6 – Grosseto": {
+  "istat": "053011",
+  "precisione": "civico",
+  "pt": [
+   42.761951,
+   11.105434
+  ],
+  "riscontro": "VIA ANSEDONIA 6"
+ },
+ "Toscana|Grosseto|Orbetello|Via Carlo Steeb, 1": {
+  "istat": "053018",
+  "precisione": "civico",
+  "pt": [
+   42.436612,
+   11.209362
+  ],
+  "riscontro": "VIA DON CARLO STEEB 1"
+ },
+ "Toscana|Livorno|Livorno|Piazza XX Settembre 1 G": {
+  "istat": "049009",
+  "precisione": "civico",
+  "pt": [
+   43.550298,
+   10.314645
+  ],
+  "riscontro": "PIAZZA VENTI SETTEMBRE 1"
+ },
+ "Toscana|Livorno|Livorno|Via Monte Grappa n. 5": {
+  "istat": "049009",
+  "precisione": "civico",
+  "pt": [
+   43.549892,
+   10.306097
+  ],
+  "riscontro": "VIA MONTE GRAPPA 5"
+ },
+ "Toscana|Livorno|Piombino|Via Lerario, 92": {
+  "istat": "049012",
+  "precisione": "civico",
+  "pt": [
+   42.932689,
+   10.520824
+  ],
+  "riscontro": "VIA GIOVANNI LERARIO 92"
+ },
+ "Toscana|Lucca|Lucca|Via G. Ungaretti 86": {
+  "istat": "046017",
+  "precisione": "via",
+  "pt": [
+   43.835083,
+   10.495692
+  ],
+  "riscontro": "VIA GIUSEPPE UNGARETTI"
+ },
+ "Toscana|Lucca|Ponte di Campia – Gallicano|Via Provinciale, 6 Ponte di Campia": {
+  "istat": "046015",
+  "precisione": "civico",
+  "pt": [
+   44.057986,
+   10.431328
+  ],
+  "riscontro": "VIA PROVINCIALE 6"
+ },
+ "Toscana|Lucca|Viareggio|Via Marco Polo, 6": {
+  "istat": "046033",
+  "precisione": "civico",
+  "pt": [
+   43.883065,
+   10.240669
+  ],
+  "riscontro": "VIA MARCO POLO 6"
+ },
+ "Toscana|Massa-Carrara|Arpiola, Mulazzo, Villafranca-Bagnone, Filattiera, Pontremoli, Tresana, Fivizzano, Licciana Nardi|Mulazzo c/o Casa della Salute": {
+  "istat": "045012",
+  "precisione": "comune",
+  "pt": [
+   44.2963,
+   9.88412
+  ],
+  "riscontro": null
+ },
+ "Toscana|Massa-Carrara|Carrara|Piazza Cesare Vico Lodovici": {
+  "istat": "045003",
+  "precisione": "via",
+  "pt": [
+   44.074789,
+   10.092177
+  ],
+  "riscontro": "PIAZZA CESARE VICO LODOVICI"
+ },
+ "Toscana|Massa-Carrara|Massa|Piazza Pellegrini, 1": {
+  "istat": "045010",
+  "precisione": "civico",
+  "pt": [
+   44.023187,
+   10.138019
+  ],
+  "riscontro": "VIA PIETRO PELLEGRINI 1"
+ },
+ "Toscana|Pisa|Pisa|Via Galli Tassi, 8": {
+  "istat": "050026",
+  "precisione": "civico",
+  "pt": [
+   43.721552,
+   10.396535
+  ],
+  "riscontro": "VIA ANGELO GALLI TASSI 8"
+ },
+ "Toscana|Pisa|San Miniato|Via dei Beccaia, 54": {
+  "istat": "050032",
+  "precisione": "civico",
+  "pt": [
+   43.6949,
+   10.84831
+  ],
+  "riscontro": "VIA DEI BECCAI 54"
+ },
+ "Toscana|Pistoia|Pistoia|Piazza Belvedere, 5": {
+  "istat": "047014",
+  "precisione": "civico",
+  "pt": [
+   43.949608,
+   10.906748
+  ],
+  "riscontro": "PIAZZA BELVEDERE 5"
+ },
+ "Toscana|Pistoia|Sede Montecatini, servono tutta la Valdinievole|Via Bellini, 32B": {
+  "istat": "047011",
+  "precisione": "civico",
+  "pt": [
+   43.891823,
+   10.763517
+  ],
+  "riscontro": "VIA VINCENZO BELLINI 32"
+ },
+ "Toscana|Prato|Prato|Via Pallacorda, 6 Prato": {
+  "istat": "100005",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   43.8778526,
+   11.0989439
+  ],
+  "riscontro": "OpenStreetMap: Via Pallacorda, 6 Prato, Prato"
+ },
+ "Toscana|Siena|Chianciano Terme|Via Sabatini 49": {
+  "istat": "052009",
+  "precisione": "civico",
+  "pt": [
+   43.044043,
+   11.815591
+  ],
+  "riscontro": "VIA GIUSEPPE SABATINI 49"
+ },
+ "Toscana|Siena|Colle di Val d'Elsa|Via XXV Aprile, 122": {
+  "istat": "052012",
+  "precisione": "civico",
+  "pt": [
+   43.417454,
+   11.131424
+  ],
+  "riscontro": "VIA 25 APRILE 122"
+ },
+ "Toscana|Siena|Piancastagnaio|Viale Gramsci, 158/G": {
+  "istat": "052020",
+  "precisione": "civico",
+  "pt": [
+   42.849376,
+   11.690511
+  ],
+  "riscontro": "VIALE ANTONIO GRAMSCI 158A"
+ },
+ "Toscana|Siena|Siena|Via Roma, 75": {
+  "istat": "052032",
+  "precisione": "civico",
+  "pt": [
+   43.31484,
+   11.339952
+  ],
+  "riscontro": "VIA ROMA 75"
+ },
+ "Trentino-Alto Adige/Südtirol|Bolzano/Bozen|Bolzano|Via del Ronco, 21": {
+  "istat": "021008",
+  "precisione": "civico",
+  "pt": [
+   46.492202,
+   11.326694
+  ],
+  "riscontro": "VIA DEL RONCO 21"
+ },
+ "Trentino-Alto Adige/Südtirol|Bolzano/Bozen|Bressanone|Via Roma, 7": {
+  "istat": "021011",
+  "precisione": "civico",
+  "pt": [
+   46.716691,
+   11.653662
+  ],
+  "riscontro": "VIA ROMA 7"
+ },
+ "Trentino-Alto Adige/Südtirol|Bolzano/Bozen|Brunico|Michael Pacher Str. 6": {
+  "istat": "021013",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   46.7948627,
+   11.9339916
+  ],
+  "riscontro": "OpenStreetMap: Michael Pacher Str. 6, Brunico/Bruneck"
+ },
+ "Trentino-Alto Adige/Südtirol|Bolzano/Bozen|Merano|Corso Libertà 184/A": {
+  "istat": "021051",
+  "precisione": "civico",
+  "pt": [
+   46.671102,
+   11.15683
+  ],
+  "riscontro": "CORSO DELLA LIBERTÀ 184"
+ },
+ "Trentino-Alto Adige/Südtirol|Trento|Trento, Rovereto, Cles, Cavalese, Riva del Garda|Via della Dogana, 1, Trento": {
+  "istat": "022205",
+  "precisione": "civico",
+  "pt": [
+   46.073212,
+   11.120719
+  ],
+  "riscontro": "VIA DOGANA 1"
+ },
+ "Umbria|Perugia|Città della Pieve|Palazzo Baglioni, via G. Garibaldi 9": {
+  "istat": "054012",
+  "precisione": "comune",
+  "pt": [
+   42.94282,
+   11.99799
+  ],
+  "riscontro": null
+ },
+ "Umbria|Perugia|Città di Castello|Via del Brandano": {
+  "istat": "054013",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   43.458292,
+   12.237655
+  ],
+  "riscontro": "OpenStreetMap: Via del Brandano, Città di Castello"
+ },
+ "Umbria|Perugia|Foligno|Via dei Mulini, 20/A": {
+  "istat": "054018",
+  "precisione": "comune",
+  "pt": [
+   42.98808,
+   12.78152
+  ],
+  "riscontro": null
+ },
+ "Umbria|Perugia|Gubbio|Parcheggio Ex Seminario": {
+  "istat": "054024",
+  "precisione": "comune",
+  "pt": [
+   43.34792,
+   12.54175
+  ],
+  "riscontro": null
+ },
+ "Umbria|Perugia|Magione|Via Amendola 9": {
+  "istat": "054026",
+  "precisione": "comune",
+  "pt": [
+   43.13926,
+   12.19145
+  ],
+  "riscontro": null
+ },
+ "Umbria|Perugia|Perugia (Ponte Pattoli)|Strada della Milizia, 4 Ponte Pattoli": {
+  "istat": "054039",
+  "precisione": "civico",
+  "pt": [
+   43.177933,
+   12.432788
+  ],
+  "riscontro": "STRADA DELLA MILIZIA 4"
+ },
+ "Umbria|Perugia|Perugia|Via Mazzini, 21 c/o Palazzo Danzetta": {
+  "istat": "054039",
+  "precisione": "civico",
+  "pt": [
+   43.110768,
+   12.389191
+  ],
+  "riscontro": "VIA GIUSEPPE MAZZINI 21"
+ },
+ "Umbria|Perugia|Spoleto|Via Cascia, 39": {
+  "istat": "054051",
+  "precisione": "civico",
+  "pt": [
+   42.754656,
+   12.729165
+  ],
+  "riscontro": "VIA CASCIA 39"
+ },
+ "Umbria|Terni|Narni|Piazza galeotto Marzio, 6 Narni e Via della Valle, 1 Amelia": {
+  "istat": "055022",
+  "precisione": "civico",
+  "pt": [
+   42.52217,
+   12.513815
+  ],
+  "riscontro": "PIAZZA GALEOTTO MARZIO 6"
+ },
+ "Umbria|Terni|Orvieto|Viale I Maggio, 36": {
+  "istat": "055023",
+  "precisione": "civico",
+  "pt": [
+   42.721263,
+   12.1271
+  ],
+  "riscontro": "VIALE PRIMO MAGGIO 36"
+ },
+ "Umbria|Terni|Terni|Via Campomicciolo, 1": {
+  "istat": "055032",
+  "precisione": "civico",
+  "pt": [
+   42.554625,
+   12.658614
+  ],
+  "riscontro": "VIA CAMPOMICCIOLO 1"
+ },
+ "Valle d'Aosta/Vallée d'Aoste|Valle d'Aosta/Vallée d'Aoste|Aosta|Via Torino, 18": {
+  "istat": "007003",
+  "precisione": "comune",
+  "pt": [
+   45.74945,
+   7.29336
+  ],
+  "riscontro": null
+ },
+ "Veneto|Belluno|Ponte nelle Alpi, Belluno, Feltre, Sedico|Via del Piave, 5": {
+  "istat": "025040",
+  "precisione": "via",
+  "pt": [
+   46.178955,
+   12.307154
+  ],
+  "riscontro": "VIA PIAVE-PAIANE (civico più vicino: 4)"
+ },
+ "Veneto|Padova|Cittadella; Sportello di Camposampiero; Sportello di Vigodarzere|(Cittadella) Stradella del Cristo, 31; (Camposampiero) Via Tiso, 12; (Vigodarzere) via Ca' Pisani, 74A": {
+  "istat": "028032",
+  "precisione": "civico",
+  "pt": [
+   45.647059,
+   11.784614
+  ],
+  "riscontro": "STRADELLA DEL CRISTO 31"
+ },
+ "Veneto|Padova|Este, Conselve|(Este) Via San Rocco, 15;": {
+  "istat": "028037",
+  "precisione": "civico",
+  "pt": [
+   45.227462,
+   11.655479
+  ],
+  "riscontro": "VIA SAN ROCCO 15"
+ },
+ "Veneto|Padova|Padova, Abano Terme, Limena|(Padova) Via Tripoli, 3 / Piazza Capitaniato 19 (sportello); (Abano Terme) Via Matteotti, 71; (Limena) via Roma, 44": {
+  "istat": "028060",
+  "precisione": "civico",
+  "pt": [
+   45.402906,
+   11.859801
+  ],
+  "riscontro": "VIA TRIPOLI 3"
+ },
+ "Veneto|Padova|Piove di Sacco|Via Cò del Panico, 2": {
+  "istat": "028065",
+  "precisione": "comune",
+  "pt": [
+   45.29327,
+   12.05877
+  ],
+  "riscontro": null
+ },
+ "Veneto|Padova|Rubano|Via Borromeo, 12": {
+  "istat": "028072",
+  "precisione": "via",
+  "pt": [
+   45.423034,
+   11.812721
+  ],
+  "riscontro": "VIA CARDINALE BORROMEO (civico più vicino: 11)"
+ },
+ "Veneto|Rovigo|Rovigo, Adria e Lendinara|Viale Marconi, 2": {
+  "istat": "029041",
+  "precisione": "civico",
+  "pt": [
+   45.076962,
+   11.783679
+  ],
+  "riscontro": "VIALE GUGLIELMO MARCONI 2"
+ },
+ "Veneto|Treviso|CastelFranco Veneto|Via Verdi, 3": {
+  "istat": "026012",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.6707364,
+   11.9348514
+  ],
+  "riscontro": "OpenStreetMap: Via Verdi, 3, Castelfranco Veneto"
+ },
+ "Veneto|Treviso|Montebelluna - Vedelago, Asolo, Valdobbiadene, Pieve di Soligo|(Montebelluna) Via Montegrappa; (Vedelago) Via Papa Sarto, 5; (Asolo) Via Forestuzzo, 5; (Valdobbiadene): Piazza Marconi, 1; (Pieve di Soligo) Via G. Battistella, 1": {
+  "istat": "026046",
+  "precisione": "via",
+  "pt": [
+   45.775974,
+   12.033458
+  ],
+  "riscontro": "VIA MONTE GRAPPA"
+ },
+ "Veneto|Treviso|Quinto di Treviso|Viale Francia, 2": {
+  "istat": "026064",
+  "precisione": "comune",
+  "pt": [
+   45.642,
+   12.15616
+  ],
+  "riscontro": null
+ },
+ "Veneto|Treviso|Treviso|Via Roma, 20": {
+  "istat": "026086",
+  "precisione": "civico",
+  "pt": [
+   45.661839,
+   12.24593
+  ],
+  "riscontro": "VIA ROMA 20"
+ },
+ "Veneto|Treviso|Vittorio Veneto|Piazza del Popolo, 15": {
+  "istat": "026092",
+  "precisione": "civico",
+  "pt": [
+   45.989689,
+   12.296227
+  ],
+  "riscontro": "PIAZZA DEL POPOLO 15"
+ },
+ "Veneto|Venezia|Chioggia, Cavarzere|(Chioggia) Riviera Caboto": {
+  "istat": "027008",
+  "precisione": "via",
+  "pt": [
+   45.217338,
+   12.273888
+  ],
+  "riscontro": "RIVIERA CABOTO"
+ },
+ "Veneto|Venezia|Mestre Carpenedo, Venezia Cannaregio, Lido di Venezia|(Mestre Carpenedo) Viale Garibaldi 155/A; (Venezia Cannaregio) Villa Groggia Calle del Capitello 3160/A; (Lido di Venezia) Via Sandro Gallo 32/A": {
+  "istat": "027042",
+  "precisione": "civico",
+  "pt": [
+   45.413466,
+   12.367443
+  ],
+  "riscontro": "VIA SANDRO GALLO 32"
+ },
+ "Veneto|Venezia|Noale, Mirano|Largo San Giorgio, 3 via bastia fuori 58": {
+  "istat": "027026",
+  "precisione": "civico",
+  "pt": [
+   45.549775,
+   12.074639
+  ],
+  "riscontro": "LARGO SAN GIORGIO 3"
+ },
+ "Veneto|Venezia|Portogruaro|Via Antonio Bon, 13": {
+  "istat": "027029",
+  "precisione": "civico",
+  "pt": [
+   45.772716,
+   12.838543
+  ],
+  "riscontro": "VIA ANTONIO BON 13"
+ },
+ "Veneto|Venezia|San Donà di Piave, Jesolo|Via Ca Boldù 120": {
+  "istat": "027033",
+  "precisione": "civico",
+  "pt": [
+   45.639158,
+   12.572613
+  ],
+  "riscontro": "VIA CA' BOLDU' 120"
+ },
+ "Veneto|Venezia|Venezia, Mira|(Mestre) Via Bissagola, 14": {
+  "istat": "027042",
+  "precisione": "civico",
+  "pt": [
+   45.492672,
+   12.253947
+  ],
+  "riscontro": "VIA BISSAGOLA 14"
+ },
+ "Veneto|Verona|Legnago|": {
+  "istat": "023044",
+  "precisione": "comune",
+  "pt": [
+   45.1548,
+   11.3054
+  ],
+  "riscontro": null
+ },
+ "Veneto|Verona|Verona, Bussolengo, Caprino Veronese, Negrar, Pescantina, San Giovanni Lupatoto, Sona|via Oberdan, 11b": {
+  "istat": "023091",
+  "precisione": "civico",
+  "pt": [
+   45.440945,
+   10.993216
+  ],
+  "riscontro": "VIA GUGLIELMO OBERDAN 11"
+ },
+ "Veneto|Verona|Verona|Palazzo Giuliari (all'interno di UniVr)": {
+  "istat": "023091",
+  "precisione": "indirizzo_osm",
+  "pt": [
+   45.4386002,
+   11.0039084
+  ],
+  "riscontro": "OpenStreetMap: Palazzo Giuliari, Verona"
+ },
+ "Veneto|Vicenza|Asiago, Bassano del Grappa|Via dalla Swann, 13": {
+  "istat": "024009",
+  "precisione": "comune",
+  "pt": [
+   45.9124,
+   11.50358
+  ],
+  "riscontro": null
+ },
+ "Veneto|Vicenza|Bassano del Grappa, Tezze sul Brenta, Marostica, Cassola, Valbrenta, Luisiana Conco - Gallio, Solagna, Pozzoleone|": {
+  "istat": "024012",
+  "precisione": "comune",
+  "pt": [
+   45.77252,
+   11.70409
+  ],
+  "riscontro": null
+ },
+ "Veneto|Vicenza|Schio|Via Pasini, 27": {
+  "istat": "024100",
+  "precisione": "civico",
+  "pt": [
+   45.71334,
+   11.35708
+  ],
+  "riscontro": "VIA FRATELLI PASINI 27"
+ },
+ "Veneto|Vicenza|Vicenza, Sportello di Arzignano, Pojana Maggiore|(Vicenza) Via Vaccari, 113; (Arzignano) Corso G. Mazzini, 83; (Pojana Maggiore) Via Trieste, 5": {
+  "istat": "024116",
+  "precisione": "civico",
+  "pt": [
+   45.537236,
+   11.524952
+  ],
+  "riscontro": "VIA GIUSEPPE VACCARI 113"
+ },
+ "_versione": 5
+}

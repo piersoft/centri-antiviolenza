@@ -1,0 +1,17 @@
+{
+  "fonte": "https://www.1522.eu/centri-antiviolenza/mappa.html",
+  "pagina_modificata": "2026-11-18T16:47:38+01:00",
+  "aggiornamento_mappatura": "17/11/2026",
+  "totale_centri": 430,
+  "regioni": 20,
+  "precisione": {
+    "civico": 266,
+    "via": 66,
+    "indirizzo_osm": 56,
+    "comune": 41,
+    "provincia": 1,
+    "non_trovato": 0
+  },
+  "impronta": "f9d7b0034a9355d93a8f01c56cb466c041371738",
+  "generato_il": "2026-11-25T07:45:33+00:00"
+}
