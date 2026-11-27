@@ -32,6 +32,11 @@
   #toolbar input[type=search]{width:240px}
   #toolbar label{display:flex;align-items:center;gap:6px;cursor:pointer}
   #toolbar button{cursor:pointer}
+  #risultati{flex-basis:100%;max-width:420px;max-height:45vh;overflow:auto;background:#fff;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.18)}
+  #risultati button{display:block;width:100%;text-align:left;border:0;border-bottom:1px solid var(--linea);background:#fff;padding:8px 12px;font:inherit;font-size:.88rem;cursor:pointer;box-shadow:none;border-radius:0}
+  #risultati button:hover{background:var(--rosa)}
+  #risultati b{display:block}
+  #risultati span{color:var(--grigio);font-size:.8rem}
   #conteggio{font-size:.85rem;background:rgba(255,255,255,.92);padding:7px 10px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.12)}
   #map{position:absolute;top:var(--hdr);bottom:0;left:0;right:0}
   /* barra laterale */
@@ -106,6 +111,7 @@
   <label title="Mostra solo i centri con un numero attivo 24 ore su 24"><input type="checkbox" id="h24"> h24</label>
   <button id="vicino" title="Trova i centri vicino a me">📍 Vicino a me</button>
   <span id="conteggio"></span>
+  <div id="risultati" hidden aria-label="Risultati della ricerca"></div>
 </div>
 
 <div id="map" aria-label="Mappa dei centri antiviolenza"></div>
@@ -151,7 +157,13 @@
 
   const CLS = { civico:'', via:'', indirizzo_osm:' osm', comune:' approx', provincia:' approx' };
   const icona = (prec, attivo) => L.divIcon({ className: '', html: '<div class="marker-cav'+(CLS[prec]??' approx')+(attivo?' attivo':'')+'"></div>', iconSize:[26,26], iconAnchor:[13,26], popupAnchor:[0,-24] });
-  const cluster = L.markerClusterGroup({ showCoverageOnHover:false, maxClusterRadius:45, spiderfyOnMaxZoom:true });
+  const cluster = L.markerClusterGroup({
+    showCoverageOnHover:false, spiderfyOnMaxZoom:true, disableClusteringAtZoom:12,
+    maxClusterRadius: z => z >= 9 ? 25 : 45,
+    iconCreateFunction: c => { const n = c.getChildCount(), sz = n < 10 ? 36 : n < 100 ? 42 : 48;
+      return L.divIcon({ html:'<div><span>'+n+'</span></div>', className:'marker-cluster '+(n<10?'marker-cluster-small':n<100?'marker-cluster-medium':'marker-cluster-large'), iconSize:[sz,sz] }); }
+  });
+  cluster.on('clustermouseover', e => e.layer.bindTooltip(e.layer.getChildCount()+' centri: tocca per vederli', {direction:'top'}).openTooltip());
   map.addLayer(cluster);
 
   let tutti = [], markerAttivo = null;
@@ -174,7 +186,7 @@
       return '<li'+(norm(g).startsWith(oggi)?' class="oggi" title="Oggi"':'')+'><span>'+esc(g)+'</span><span>'+esc(v)+'</span></li>';
     }).join('') + '</ul>';
   }
-  const linkTel = n => '<a href="tel:'+esc(n)+'">📞 '+esc(n.replace(/^(\d{3})(\d{3,4})(\d+)$/,'$1 $2 $3'))+'</a>';
+  const linkTel = n => '<a href="tel:'+esc(n)+'">📞 '+esc(n)+'</a>';
 
   // ---------- barra laterale ----------
   function apriSidebar(p, latlng) {
@@ -238,7 +250,18 @@
       return true; });
     cluster.clearLayers(); cluster.addLayers(vis);
     document.getElementById('conteggio').textContent = vis.length + (vis.length===1?' centro':' centri');
-    if (adatta && vis.length) map.fitBounds(L.featureGroup(vis).getBounds(), { padding:[40,40], maxZoom: 13 });
+    if (adatta && vis.length) map.fitBounds(L.featureGroup(vis).getBounds(), { padding:[40,40], maxZoom: 14 });
+    mostraRisultati(q || r ? vis : []);
+  }
+  // elenco dei risultati della ricerca
+  const elRis = document.getElementById('risultati');
+  function mostraRisultati(vis) {
+    if (!vis.length || vis.length > 40) { elRis.hidden = true; elRis.innerHTML = ''; return; }
+    const ord = vis.slice().sort((a,b) => (a.feature.properties.comune+a.feature.properties.centro).localeCompare(b.feature.properties.comune+b.feature.properties.centro,'it'));
+    elRis.innerHTML = ord.map((m,i) => { const p = m.feature.properties;
+      return '<button type="button" data-i="'+i+'"><b>'+esc(p.centro)+'</b><span>'+esc(p.comune)+(p.indirizzo?' – '+esc(p.indirizzo):'')+'</span></button>'; }).join('');
+    elRis.querySelectorAll('button').forEach(bt => bt.onclick = () => { seleziona(ord[+bt.dataset.i], true); if (matchMedia('(max-width:760px)').matches) elRis.hidden = true; });
+    elRis.hidden = false;
   }
   let t; elCerca.addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => applicaFiltri(true), 250); });
   elReg.onchange = () => applicaFiltri(true);
